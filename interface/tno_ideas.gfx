@@ -1,0 +1,61 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_ZZZ_antarctic_anarchy" #wasGFX_idea_ZZZ_test
+		texturefile = "gfx/interface/ideas/ZZZ_Antarctic_Anarchy.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_decision_category_antarctica"
+		texturefile = "gfx/interface/decisions/decision_category_antarctica.png"
+	}	
+
+	spriteType = {
+		name = "GFX_decision_cat_antarctica"
+		texturefile = "gfx/interface/decisions/decision_cat_antarctica.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_decision_antarctica"
+		texturefile = "gfx/interface/decisions/decision_antarctica.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_schwabenland_event_picture"
+		texturefile = "gfx/event_pictures/schwabenland.dds"
+	}		
+	spriteType = {
+		name = "GFX_omond_house_event_picture"
+		texturefile = "gfx/event_pictures/omond_house.dds"
+	}	
+	spriteType = {
+		name = "GFX_riquelme_event_picture"
+		texturefile = "gfx/event_pictures/riquelme.dds"
+	}	
+	spriteType = {
+		name = "GFX_generic_antarctic_expedition_event_picture"
+		texturefile = "gfx/event_pictures/generic_antarctic_expedition.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_banzare_event_picture"
+		texturefile = "gfx/event_pictures/banzare.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_byrd_event_picture"
+		texturefile = "gfx/event_pictures/byrd.dds"
+	}
+
+	spriteType = {
+		name = "GFX_east_base_event_picture"
+		texturefile = "gfx/event_pictures/east_base.dds"
+	}
+
+	spriteType = {
+		name = "GFX_neuschwabenland_event_picture"
+		texturefile = "gfx/event_pictures/neuschwabenland.dds"
+	}
+
+
+
+}

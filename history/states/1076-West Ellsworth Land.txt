@@ -1,0 +1,17 @@
+state = {
+	id = 1076
+	name = "WEST_ELLSWORTH_LAND"
+	manpower = 1
+	
+	state_category = wasteland
+
+	history={
+		owner = ZZZ
+	}
+
+	provinces={
+		16422 17678 17714 17805
+	}
+
+	local_supplies=0.0 
+}

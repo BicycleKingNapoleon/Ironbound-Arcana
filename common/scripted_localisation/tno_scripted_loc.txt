@@ -1,0 +1,36 @@
+defined_text = {
+	name = TNO_leader_title_neuschwabenland_event
+	text = {
+		trigger = {
+			original_tag = GER
+			has_government = neutrality
+			has_completed_focus = GER_return_of_the_kaiser_ww
+		}
+		localization_key = kaiser_key
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			has_government = neutrality
+			NOT = { has_completed_focus = GER_return_of_the_kaiser_ww }
+		}
+		localization_key = military_key
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			has_government = democratic
+		}
+		localization_key = chancellor_key
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			has_government = communism
+		}
+		localization_key = communist_key
+	}
+	text = {
+		localization_key = fuhrer_key
+	}
+}
