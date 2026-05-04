@@ -27,6 +27,7 @@ state={
 			}
 		}
 		add_core_of = IBR
+		add_core_of = POR
 	}
 
 	provinces={
