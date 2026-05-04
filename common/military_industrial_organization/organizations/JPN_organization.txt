@@ -1,0 +1,104 @@
+JPN_howa_machinery_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_howa_machinery_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_nakajima_organization = {
+	include = generic_light_aircraft_organization
+	icon = GFX_idea_nakajima_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_kawasaki_organization_1 = {
+	include = generic_medium_aircraft_organization
+	icon = GFX_idea_kawasaki_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_kawasaki_organization_2 = {
+	include = generic_submarine_organization
+	icon = GFX_idea_kawasaki_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+} 
+JPN_mitsubishi_organization = {
+	include = generic_high_agility_fighter_aircraft_organization
+	icon = GFX_idea_mitsubishi_army_arsenal_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_kokura_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_kokura_arsenal_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_mitsubishi_organization_2 = {
+	include = generic_task_force_ship_organization
+	icon = GFX_idea_mitsubishi_army_arsenal_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_mitsubishi_organization_3 = {
+	include = generic_medium_tank_organization
+	icon = GFX_idea_mitsubishi_army_arsenal_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_hitachi_organization = {
+	include = generic_tank_organization
+	icon = GFX_idea_hitachi_ic
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_ihi_organization = {
+	include = generic_task_force_ship_organization
+	icon = GFX_idea_ihi_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_aichi_organization = {
+	include = generic_naval_aircraft_organization
+	icon = GFX_idea_aichi_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_toyota_organization = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_toyota_ic
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+JPN_isuzu_organization = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_isuzu_organization
+	allowed = {	
+		tag = JPN
+		has_dlc = "Arms Against Tyranny"
+	}
+}

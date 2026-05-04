@@ -1,0 +1,8 @@
+CHI_norinco_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_norinco_organization
+	allowed = {	
+		tag = CHI
+		has_dlc = "Arms Against Tyranny"
+	}
+} 
