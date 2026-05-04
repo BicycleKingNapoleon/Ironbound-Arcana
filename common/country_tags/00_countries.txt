@@ -1,6 +1,7 @@
 # Western Europe
 
 IBR	= "countries/_western_european.txt"
+UOK	= "countries/_western_european.txt"
 
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"

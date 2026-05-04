@@ -12,7 +12,8 @@ state = {
 
 	history = {
 
-		owner = POR
+		owner = UOK
+		add_core_of = UOK
 		add_core_of = POR
 
 		victory_points = {

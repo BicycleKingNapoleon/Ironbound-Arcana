@@ -3,7 +3,7 @@ state={
 	name="STATE_168"
 
 	history={
-		owner = SPR
+		owner = UOK
 		victory_points = {
 			10024 3
 		}
@@ -17,8 +17,8 @@ state={
 			}
 
 		}
+		add_core_of = UOK
 		add_core_of = SPR
-
 	}
 
 	provinces={

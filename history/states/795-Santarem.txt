@@ -5,7 +5,7 @@ state={
 		chromium=20.000 #added due to portugal setup
 	}
 	history={
-		owner = POR
+		owner = UOK
 		victory_points = {
 			9869 1 
 		}
@@ -17,8 +17,8 @@ state={
 			industrial_complex = 2
 
 		}
+		add_core_of = UOK
 		add_core_of = POR
-
 	}
 
 	provinces={
