@@ -1,0 +1,27 @@
+﻿capital = 41
+oob = ""
+
+starting_train_buffer = 2
+set_research_slots = 3
+set_convoys = 50
+set_war_support = 0.3
+
+recruit_character = UOK_leona_blaze
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	socialism = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 30
+	fascism = 0
+	national_socialism = 0
+	despotism = 70
+}
+

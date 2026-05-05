@@ -1,0 +1,24 @@
+characters={
+	UOK_leona_blaze = {
+		name = UOK_leona_blaze
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UOK/UOK_leona_blaze.png"
+			}
+		}
+		country_leader = {
+			desc = "UOK_leona_blaze_desc"
+			ideology = despotism_subtype
+			expire = "1990.10.20"
+		}
+		field_marshal={
+			traits={ infantry_officer trait_cautious }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}
