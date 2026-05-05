@@ -1,0 +1,76 @@
+﻿l_korean:
+
+  ## communism
+    communism:0 "공산주의"
+    communism_noun:0 "공산주의"
+    communism_desc:0 "Unionist Regime"
+ 
+    communism_subtype:0 "공산주의"
+    communism_subtype_desc:0 "[placeholder]"
+
+   ## socialism
+    socialism:0 "사회주의"
+    socialism_noun:0 "사회주의"
+    socialism_desc:0 "Unionist Regime"
+ 
+    socialism_subtype:0 "사회주의"
+    socialism_subtype_desc:0 "[placeholder]"
+
+  ## liberalism
+    liberalism:0 "자유주의"
+    liberalism_noun:0 "자유주의"
+    liberalism_desc:0 "Parlamentarian Regime"
+ 
+    liberalism_subtype:0 "자유주의"
+    liberalism_subtype_desc:0 "[placeholder]"
+
+  ## conservatism
+    conservatism:0 "보수주의"
+    conservatism_noun:0 "보수주의"
+    conservatism_desc:0 "Parlamentarian Regime"
+ 
+    conservatism_subtype:0 "보수주의"
+    conservatism_subtype_desc:0 "[placeholder]"
+
+  ## authauthoritarianism
+    authoritarianism:0 "권위주의"
+    authoritarianism_noun:0 "권위주의"
+    authoritarianism_desc:0 "Parlamentarian Regime"
+ 
+    authoritarianism_subtype:0 "권위주의"
+    authoritarianism_subtype_desc:0 "[placeholder]"
+
+  ## fascism
+    fascism:0 "파시즘"
+    fascism_noun:0 "파시즘"
+    fascism_desc:0 "Fascist Regime"
+ 
+    fascism_subtype:0 "파시즘"
+    fascism_subtype_desc:0 "[placeholder]"
+
+  ## Despotism
+    despotism:0 "전제주의"
+    despotism_noun:0 "전제주의"
+    despotism_desc:0 "Despotic Regime"
+ 
+    despotism_subtype:0 "전제주의"
+    despotism_subtype_desc:0 "[placeholder]"
+
+  ## national_socialism
+    national_socialism:0 "국가사회주의"
+    national_socialism_noun:0 "국가사회주의"
+    national_socialism_desc:0 "Unspecified Regime"
+ 
+    national_socialism_subtype:0 "국가사회주의"
+    national_socialism_subtype_desc:0 "[placeholder]"
+ 
+  #매일 이념 변동치 툴팁
+
+  communism_drift:0 "매일 공산주의 지지도"
+  socialism_drift:0 "매일 사회주의 지지도"
+  liberalism_drift:0 "매일 자유주의 지지도"
+  conservatism_drift:0 "매일 보수주의 지지도"
+  authoritarianism_drift:0 "매일 권위주의 지지도"
+  fascism_drift:0 "매일 파시즘 지지도"
+  despotism_drift:0 "매일 전제주의 지지도"
+  national_socialism_drift:0 "매일 국가사회주의 지지도"

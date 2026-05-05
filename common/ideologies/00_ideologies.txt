@@ -4,11 +4,11 @@
 ## 3. try not to change order of ideologies
 ideologies = {
 
-	praetism = { # communism (vanguardist - party leads the people)
+	communism = { # communism (vanguardist - party leads the people)
 
 		types = {
 
-			praetism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
+			communism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
 			futurist_socialism = { can_be_randomly_selected = no }
 		}
 
@@ -16,8 +16,8 @@ ideologies = {
 			"FACTION_NAME_PEOPLE_1" ## Localisation for generic faction names, default set on only one, changes allowed.
 		}
 
-		color = { 167 28 28 } ## RGB value for the ideology color, do NOT change without permission
-		ai_communist = yes ## for praetism and communalism ONLY
+		color = { 209 47 47 } ## RGB value for the ideology color, do NOT change without permission
+		ai_communist = yes ## for communism and socialism ONLY
 		ai_ideology_wanted_units_factor = 1.5 # the more radical the more divisions basically
 		ai_give_core_state_control_threshold = 10
 		war_impact_on_world_tension = 1 ## generic, do not change
@@ -40,11 +40,11 @@ ideologies = {
 		}
 	}
 
-	communalism = { # socialism (councilism, syndicalism and democratic socialism)
+	socialism = { # socialism (councilism, syndicalism and democratic socialism)
 
 		types = {
 
-			communalism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
+			socialism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
 
 		}
 
@@ -52,8 +52,8 @@ ideologies = {
 			"FACTION_NAME_PEOPLE_1" ## Localisation for generic faction names, default set on only one, changes allowed.
 		}
 
-		color = { 210 73 98 } ## RGB value for the ideology color, do NOT change without permission
-		ai_communist = yes ## for praetism and communalism ONLY
+		color = { 220 121 96 } ## RGB value for the ideology color, do NOT change without permission
+		ai_communist = yes ## for communism and socialism ONLY
 		ai_ideology_wanted_units_factor = 1.5 # the more radical the more divisions basically
 		ai_give_core_state_control_threshold = 10
 		war_impact_on_world_tension = 1 ## generic, do not change
@@ -76,11 +76,11 @@ ideologies = {
 		}
 	}
 
-	amendarism = { # Progressive democracy
+	liberalism = { # Progressive democracy
 
 		types = {
 
-			amendarism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
+			liberalism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
 
 		}
 
@@ -88,8 +88,8 @@ ideologies = {
 			"FACTION_NAME_LIBERTY_1" ## Localisation for generic faction names, default set on only one, changes allowed.
 		}
 
-		color = { 99 172 216 } ## RGB value for the ideology color, do NOT change without permission
-		ai_democratic = yes ## for legacism and amendarism ONLY
+		color = { 187 175 112 } ## RGB value for the ideology color, do NOT change without permission
+		ai_democratic = yes ## for conservatism and liberalism ONLY
 		ai_ideology_wanted_units_factor = 1.00
 		war_impact_on_world_tension = 1 ## generic, do not change
 
@@ -111,11 +111,11 @@ ideologies = {
 		}
 	}
 
-	legacism = { # conservatism
+	conservatism = { # conservatism
 
 		types = {
 
-			legacism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
+			conservatism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
 
 		}
 
@@ -123,8 +123,8 @@ ideologies = {
 			"FACTION_NAME_LIBERTY_1" ## Localisation for generic faction names, default set on only one, changes allowed.
 		}
 
-		color = { 106 201 158 } ## RGB value for the ideology color, do NOT change without permission
-		ai_democratic = yes ## for legacism and amendarism ONLY
+		color = { 107 133 150 } ## RGB value for the ideology color, do NOT change without permission
+		ai_democratic = yes ## for conservatism and liberalism ONLY
 		ai_ideology_wanted_units_factor = 1.00
 		war_impact_on_world_tension = 1 ## generic, do not change
 
@@ -146,11 +146,11 @@ ideologies = {
 		}
 	}
 
-	tutellarism = { # authoritarianism in general, usually NOT monarchist
+	authoritarianism = { # authoritarianism in general, usually NOT monarchist
 
 		types = {
 
-			tutellarism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
+			authoritarianism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
 
 		}
 
@@ -158,8 +158,8 @@ ideologies = {
 			"FACTION_NAME_ORDER_1" ## Localisation for generic faction names, default set on only one, changes allowed.
 		}
 
-		color = { 67 124 102 } ## RGB value for the ideology color, do NOT change without permission
-		ai_neutral = yes ## for tutellarism, despotism and symbiarism ONLY
+		color = { 143 143 143 } ## RGB value for the ideology color, do NOT change without permission
+		ai_neutral = yes ## for authoritarianism, despotism and national_socialism ONLY
 		ai_ideology_wanted_units_factor = 1.20 # the more radical the more divisions basically
 		ai_give_core_state_control_threshold = 5
 		war_impact_on_world_tension = 1 ## generic, do not change
@@ -182,11 +182,11 @@ ideologies = {
 		}
 	}
 
-	integrationism = { # fascismo
+	fascism = { # fascismo
 
 		types = {
 
-			integrationism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
+			fascism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
 			folgore_subtype = { can_be_randomly_selected = no }
 			castracane_subtype = { can_be_randomly_selected = no }
 			great_steppeism = { can_be_randomly_selected = no }
@@ -196,10 +196,46 @@ ideologies = {
 			"FACTION_NAME_NATION_1" ## Localisation for generic faction names, default set on only one, changes allowed.
 		}
 
-		color = { 28 86 20 } ## RGB value for the ideology color, do NOT change without permission
-		ai_fascist = yes ## for integrationism ONLY
+		color = { 158 116 97 } ## RGB value for the ideology color, do NOT change without permission
+		ai_fascist = yes ## for fascism ONLY
 		ai_ideology_wanted_units_factor = 1.50 # the more radical the more divisions basically
 		ai_give_core_state_control_threshold = 10
+		war_impact_on_world_tension = 1 ## generic, do not change
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_join_factions = no
+		}
+		can_host_government_in_exile = no
+		can_collaborate = yes
+
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 8.0
+			navy_intel_to_others = 7.5
+			airforce_intel_to_others = 8.0
+		}
+	}
+
+	national_socialism = { # Primitive communitarianism - pretty simple to understand
+
+		types = {
+
+			national_socialism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
+
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ORDER_1" ## Localisation for generic faction names, default set on only one, changes allowed.
+		}
+
+		color = { 93 65 51 } ## RGB value for the ideology color, do NOT change without permission
+		ai_neutral = yes ## for authoritarianism, despotism and national_socialism ONLY
+		ai_ideology_wanted_units_factor = 1.20 # the more radical the more divisions basically
+		ai_give_core_state_control_threshold = 5
 		war_impact_on_world_tension = 1 ## generic, do not change
 
 		rules = {
@@ -233,7 +269,7 @@ ideologies = {
 		}
 
 		color = { 70 70 70 } ## RGB value for the ideology color, do NOT change without permission
-		ai_neutral = yes ## for tutellarism, despotism and symbiarism ONLY
+		ai_neutral = yes ## for authoritarianism, despotism and national_socialism ONLY
 		ai_ideology_wanted_units_factor = 1.20 # the more radical the more divisions basically
 		ai_give_core_state_control_threshold = 10
 		war_impact_on_world_tension = 1 ## generic, do not change
@@ -255,41 +291,4 @@ ideologies = {
 			airforce_intel_to_others = 10.0
 		}
 	}
-
-	symbiarism = { # Primitive communitarianism - pretty simple to understand
-
-		types = {
-
-			symbiarism_subtype = { } # generic sub for the ideology, it can NOT have 'can_be_randomly_selected = no' in the {}
-
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_ORDER_1" ## Localisation for generic faction names, default set on only one, changes allowed.
-		}
-
-		color = { 206 173 66 } ## RGB value for the ideology color, do NOT change without permission
-		ai_neutral = yes ## for tutellarism, despotism and symbiarism ONLY
-		ai_ideology_wanted_units_factor = 1.20 # the more radical the more divisions basically
-		ai_give_core_state_control_threshold = 5
-		war_impact_on_world_tension = 1 ## generic, do not change
-
-		rules = {
-			can_force_government = yes
-			can_puppet = yes
-			can_create_factions = no
-			can_send_volunteers = yes
-			can_join_factions = no
-		}
-		can_host_government_in_exile = no
-		can_collaborate = yes
-
-		modifiers = {
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 5.0
-			airforce_intel_to_others = 10.0
-		}
-	}
-
 }
