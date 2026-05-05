@@ -12,8 +12,8 @@ state = {
 
 	history = {
 
-		owner = GER
-		add_core_of = GER
+		owner = PRE
+		add_core_of = PRE
 		add_core_of = SAX
 
 		buildings = {
@@ -32,14 +32,6 @@ state = {
 
 		victory_points = {
 			9471 2 # Chemnitz
-		}
-		
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 2
-				arms_factory = 5
-				industrial_complex = 10
-			}
 		}
 	}
 

@@ -7,10 +7,9 @@ state = {
 
 	history = {
 
-		owner = POL
-		add_core_of = POL
+		owner = PRE
 		add_core_of = KSH
-		add_claim_by = PRE
+		add_core_of = PRE
 
 		victory_points = {
 			9263 5 # Gdynia
@@ -32,10 +31,6 @@ state = {
 			9263 = {
 				naval_base = 1
 			}
-		}
-		
-		1938.3.12 = {
-			add_claim_by = GER
 		}
 	}
 

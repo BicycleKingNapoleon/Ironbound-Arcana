@@ -25,6 +25,21 @@ BEL = {
 	color_ui = rgb { 216 203 101 }
 }
 
+PRE = {
+	color = rgb { 84 120 60 }
+	color_ui = rgb { 84 120 60 }
+}
+
+SOV = {
+	color = rgb { 114 161 71 }
+	color_ui = rgb { 114 161 71 }
+}
+
+POL = {
+	color = rgb { 114 161 71 }
+	color_ui = rgb { 114 161 71 }
+}
+
 
 # Vanilla
 
@@ -35,10 +50,6 @@ GER = {
 ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
-}
-SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
 }
 SWE = {
 	color = rgb { 36 132 247 }
@@ -53,10 +64,6 @@ HOL = {	color = rgb { 203 138 74 }
 }
 CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
-}
-POL = {
-	color = rgb { 214 102 139 }
-	color_ui = rgb { 255 120 138 }
 }
 AUS = {
 	color = rgb { 194 198 215 }
@@ -699,10 +706,6 @@ BAY = {
 MEK = {
 	color = rgb { 186 245 86 }
 	color_ui = rgb { 186 245 86 }
-}
-PRE = {
-	color = rgb { 160  160  160 }
-	color_ui = rgb { 160  160  160 }
 }
 SAX = {
 	color = rgb { 102 102 0 }

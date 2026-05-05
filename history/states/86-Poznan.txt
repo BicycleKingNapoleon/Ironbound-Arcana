@@ -7,8 +7,7 @@ state = {
 	state_category = city
 	history = {
 
-		owner = POL
-		add_core_of = POL
+		owner = PRE
 		add_claim_by = PRE
 
 		victory_points = {
@@ -31,10 +30,6 @@ state = {
 
 			}
 			air_base = 3
-		}
-		
-		1938.3.12 = {
-			add_claim_by = GER
 		}
 	}
 

@@ -8,8 +8,7 @@ state = {
 
 	history = {
 
-		owner = GER
-		add_core_of = GER
+		owner = PRE
 		add_core_of = PRE
 
 		victory_points = {
@@ -23,15 +22,6 @@ state = {
 		buildings = {
 			infrastructure = 3
 			fuel_silo = 1
-		}
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 8
-				9388 = { #Not exact match with historical location but has supplies
-					air_facility = 1 #Representing Peenemünde's Research Facilities
-				}
-			}
 		}
 	}
 

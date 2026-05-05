@@ -6,8 +6,7 @@ state = {
 
 	history = {
 
-		owner = GER
-		add_core_of = GER
+		owner = PRE
 		add_core_of = PRE
 		
 		victory_points = {
@@ -23,12 +22,6 @@ state = {
 				naval_base = 5
 			}
 			air_base = 6
-		}
-		
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-			}
 		}
 	}
 
