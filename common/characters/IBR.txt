@@ -1,0 +1,15 @@
+characters={
+	IBR_francisco_franco = {
+		name = IBR_francisco_franco
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IBR/IBR_francisco_franco.png"
+			}
+		}
+		country_leader = {
+			desc = "IBR_francisco_franco_desc"
+			ideology = despotism_subtype
+			expire = "1990.10.20"
+		}
+	}
+}
