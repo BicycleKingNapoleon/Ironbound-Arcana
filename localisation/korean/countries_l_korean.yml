@@ -24,6 +24,10 @@
  ITA_DEF:0 "이탈리아 왕국"
  ITA_ADJ:0 "이탈리아"
 
+ ENG:0 "영국"
+ ENG_DEF:0 "그레이트브리튼 연합왕국"
+ ENG_ADJ:0 "영국"
+
  BEL:0 "벨기에 왕국"
  BEL_DEF:0 "벨기에 왕국"
  BEL_ADJ:0 "벨기에"
@@ -44,6 +48,41 @@
  POL_DEF:0 "폴란드 왕국"
  POL_ADJ:0 "폴란드"
 
- FIN:0 "핀란드 대공국"
- FIN_DEF:0 "핀란드 대공국"
+ FIN:0 "핀란드"
+ FIN_DEF:0 "핀란드"
  FIN_ADJ:0 "핀란드"
+ FIN_SOV_despotism:0 "핀란드 대공국"
+ FIN_SOV_despotism_DEF:0 "핀란드 대공국"
+ FIN_SOV_despotism_ADJ:0 "핀란드"
+
+ HOL:0 "네덜란드 왕국"
+ HOL_DEF:0 "네덜란드 왕국"
+ HOL_ADJ:0 "네덜란드"
+
+ IRE:0 "아일랜드 공화국"
+ IRE_DEF:0 "아일랜드 공화국"
+ IRE_ADJ:0 "아일랜드"
+
+ SWI:0 "스위스 연방"
+ SWI_DEF:0 "스위스 연방"
+ SWI_ADJ:0 "스위스"
+
+ BAL:0 "발트 총독부"
+ BAL_DEF:0 "발트 총독부"
+ BAL_ADJ:0 "발트"
+
+ SWE:0 "스웨덴 왕국"
+ SWE_DEF:0 "스웨덴 왕국"
+ SWE_ADJ:0 "스웨덴"
+
+ ############
+ ### Asia ###
+ ############
+
+ MON:0 "몽골 공국"
+ MON_DEF:0 "몽골 공국"
+ MON_ADJ:0 "몽골"
+
+ PER:0 "이란 제국"
+ PER_DEF:0 "이란 제국"
+ PER_ADJ:0 "이란"
