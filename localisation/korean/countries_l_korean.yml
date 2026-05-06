@@ -51,9 +51,9 @@
  FIN:0 "핀란드"
  FIN_DEF:0 "핀란드"
  FIN_ADJ:0 "핀란드"
- FIN_SOV_despotism:0 "핀란드 대공국"
- FIN_SOV_despotism_DEF:0 "핀란드 대공국"
- FIN_SOV_despotism_ADJ:0 "핀란드"
+ FIN_SOV_subject:0 "핀란드 대공국"
+ FIN_SOV_subject_DEF:0 "핀란드 대공국"
+ FIN_SOV_subject_ADJ:0 "핀란드"
 
  HOL:0 "네덜란드 왕국"
  HOL_DEF:0 "네덜란드 왕국"
