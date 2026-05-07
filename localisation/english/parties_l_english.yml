@@ -1,0 +1,76 @@
+﻿l_english:
+
+  ## communism
+    communism:0 "Communism"
+    communism_noun:0 "Communism"
+    communism_desc:0 "Unionist Regime"
+ 
+    communism_subtype:0 "Communism"
+    communism_subtype_desc:0 "[placeholder]"
+
+   ## socialism
+    socialism:0 "Socialism"
+    socialism_noun:0 "Socialism"
+    socialism_desc:0 "Unionist Regime"
+ 
+    socialism_subtype:0 "Socialism"
+    socialism_subtype_desc:0 "[placeholder]"
+
+  ## liberalism
+    liberalism:0 "Liberalism"
+    liberalism_noun:0 "Liberalism"
+    liberalism_desc:0 "Parlamentarian Regime"
+ 
+    liberalism_subtype:0 "Liberalism"
+    liberalism_subtype_desc:0 "[placeholder]"
+
+  ## conservatism
+    conservatism:0 "Conservatism"
+    conservatism_noun:0 "Conservatism"
+    conservatism_desc:0 "Parlamentarian Regime"
+ 
+    conservatism_subtype:0 "Conservatism"
+    conservatism_subtype_desc:0 "[placeholder]"
+
+  ## authauthoritarianism
+    authoritarianism:0 "Authoritarianism"
+    authoritarianism_noun:0 "Authoritarianism"
+    authoritarianism_desc:0 "Parlamentarian Regime"
+ 
+    authoritarianism_subtype:0 "Authoritarianism"
+    authoritarianism_subtype_desc:0 "[placeholder]"
+
+  ## fascism
+    fascism:0 "Fascism"
+    fascism_noun:0 "Fascism"
+    fascism_desc:0 "Fascist Regime"
+ 
+    fascism_subtype:0 "Fascism"
+    fascism_subtype_desc:0 "[placeholder]"
+
+  ## Despotism
+    despotism:0 "Despotism"
+    despotism_noun:0 "Despotism"
+    despotism_desc:0 "Despotic Regime"
+ 
+    despotism_subtype:0 "Despotism"
+    despotism_subtype_desc:0 "[placeholder]"
+
+  ## national_socialism
+    national_socialism:0 "National Socialism"
+    national_socialism_noun:0 "National Socialism"
+    national_socialism_desc:0 "Unspecified Regime"
+ 
+    national_socialism_subtype:0 "National Socialism"
+    national_socialism_subtype_desc:0 "[placeholder]"
+ 
+  #Daily 이념 변동치 툴팁
+
+  communism_drift:0 "Daily Communism Support"
+  socialism_drift:0 "Daily Socialism Support"
+  liberalism_drift:0 "Daily Liberalism Support"
+  conservatism_drift:0 "Daily Conservatism Support"
+  authoritarianism_drift:0 "Daily Authoritarianism Support"
+  fascism_drift:0 "Daily Fascism Support"
+  despotism_drift:0 "Daily Despotism Support"
+  national_socialism_drift:0 "Daily National Socialism Support"

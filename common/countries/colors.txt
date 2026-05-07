@@ -130,12 +130,13 @@ MEX = {
 	color_ui = rgb { 81 109 64 }
 }
 
+SGF = {
+	color = rgb { 106 145 148 }
+ 	color_ui = rgb { 106 145 148 }
+}
+
 # Vanilla
 
-GER = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
-}
 LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }

@@ -1,7 +1,6 @@
 # Western Europe
 IBR	= "countries/_western_european.txt"
 UOK	= "countries/_western_european.txt"
-GER	= "countries/_western_european.txt"
 BEL	= "countries/_western_european.txt"
 HOL	= "countries/_western_european.txt"
 AUS	= "countries/_western_european.txt"
@@ -13,6 +12,7 @@ NOR = "countries/_western_european.txt"
 RHE = "countries/_western_european.txt"
 FRA	= "countries/_western_european.txt"
 SWI = "countries/_western_european.txt"
+SGF = "countries/_western_european.txt"
 
 # Eastern Europe
 BAL = "countries/_eastern_european.txt"

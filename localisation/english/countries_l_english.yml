@@ -6,4 +6,207 @@
 
  IBR:0 "Iberian Defense Committee"
  IBR_DEF:0 "Iberian Defense Committee"
- IBR_ADJ:0 "Iberian Defense Committee"
+ IBR_ADJ:0 "Iberian"
+
+ UOK:0 "United Order of Knights"
+ UOK_DEF:0 "United Order of Knights"
+ UOK_ADJ:0 "United Order of Knights"
+
+ FRA:0 "French 3rd Republic"
+ FRA_DEF:0 "French 3rd Republic"
+ FRA_ADJ:0 "French"
+
+ LUX:0 "Grand Duchy of Luxembourg"
+ LUX_DEF:0 "Grand Duchy of Luxembourg"
+ LUX_ADJ:0 "Luxembourg"
+
+ ITA:0 "Kingdom of Italy"
+ ITA_DEF:0 "Kingdom of Italy"
+ ITA_ADJ:0 "Italian"
+
+ ENG:0 "United Kingdom"
+ ENG_DEF:0 "United Kingdom of Great Britain"
+ ENG_ADJ:0 "British"
+
+ BEL:0 "Kingdom of Belgium"
+ BEL_DEF:0 "Kingdom of Belgium"
+ BEL_ADJ:0 "Belgian"
+
+ AUS:0 "Austrian Empire"
+ AUS_DEF:0 "Austrian Empire"
+ AUS_ADJ:0 "Austrian"
+
+ PRE:0 "Grand Duchy of Prussia"
+ PRE_DEF:0 "Grand Duchy of Prussia"
+ PRE_ADJ:0 "Prussian"
+
+ SOV:0 "Russian Empire"
+ SOV_DEF:0 "Russian Empire"
+ SOV_ADJ:0 "Russian"
+
+ POL:0 "Kingdom of Poland"
+ POL_DEF:0 "Kingdom of Poland"
+ POL_ADJ:0 "Polish"
+
+ FIN:0 "Finland"
+ FIN_DEF:0 "Finland"
+ FIN_ADJ:0 "Finnish"
+ FIN_SOV_subject:0 "Grand Duchy of Finland"
+ FIN_SOV_subject_DEF:0 "Grand Duchy of Finland"
+ FIN_SOV_subject_ADJ:0 "Finland"
+
+ HOL:0 "Kingdom of Netherland"
+ HOL_DEF:0 "Kingdom of Netherland"
+ HOL_ADJ:0 "Dutch"
+
+ IRE:0 "Republic of Ireland"
+ IRE_DEF:0 "Republic of Ireland"
+ IRE_ADJ:0 "Ireland"
+
+ SWI:0 "Swiss Confederation"
+ SWI_DEF:0 "Swiss Confederation"
+ SWI_ADJ:0 "Swiss"
+
+ BAL:0 "Government of Baltic Provinces"
+ BAL_DEF:0 "Government of Baltic Provinces"
+ BAL_ADJ:0 "Baltic"
+
+ SWE:0 "Kingdom of Sweden"
+ SWE_DEF:0 "Kingdom of Sweden"
+ SWE_ADJ:0 "Swedish"
+
+ NOR:0 "Kingdom of Norway"
+ NOR_DEF:0 "Kingdom of Norway"
+ NOR_ADJ:0 "Norwegian"
+
+ DEN:0 "Kingdom of Denmark"
+ DEN_DEF:0 "Kingdom of Denmark"
+ DEN_ADJ:0 "Danish"
+
+ HUN:0 "Kingdom of Hungary"
+ HUN_DEF:0 "Kingdom of Hungary"
+ HUN_ADJ:0 "Hungarian"
+
+ ALB:0 "Kingdom of Albania"
+ ALB_DEF:0 "Kingdom of Albania"
+ ALB_ADJ:0 "Albanian"
+
+ RHE:0 "Republic of Rhein"
+ RHE_DEF:0 "Republic of Rhein"
+ RHE_ADJ:0 "Rhein"
+
+ SGF:0 "South German Federation"
+ SGF_DEF:0 "South German Federation"
+ SGF_ADJ:0 "South German"
+
+ ############
+ ### Asia ###
+ ############
+
+ MON:0 "Duchy of Mongolia"
+ MON_DEF:0 "Duchy of Mongolia"
+ MON_ADJ:0 "Mongolian"
+
+ PER:0 "Imperial State of Iran"
+ PER_DEF:0 "Imperial State of Iran"
+ PER_ADJ:0 "Iranian"
+
+ TUR:0 "Ottoman Empire"
+ TUR_DEF:0 "Ottoman Empire"
+ TUR_ADJ:0 "Ottoman"
+
+ #####################
+ ### North America ###
+ #####################
+
+ USA:0 "United States of America"
+ USA_DEF:0 "United States of America"
+ USA_ADJ:0 "American"
+
+ CAN:0 "Dominion of Canada"
+ CAN_DEF:0 "Dominion of Canada"
+ CAN_ADJ:0 "Canadian"
+
+ MEX:0 "United States of Mexico"
+ MEX_DEF:0 "United States of Mexico"
+ MEX_ADJ:0 "Mexican"
+
+ #####################
+ ### South America ###
+ #####################
+
+ CUB:0 "Republic of Cuba"
+ CUB_DEF:0 "Republic of Cuba"
+ CUB_ADJ:0 "Cuba"
+
+ HAI:0 "Haiti"
+ HAI_DEF:0 "Haiti"
+ HAI_ADJ:0 "Haiti"
+
+ DOM:0 "Dominican Republic"
+ DOM_DEF:0 "Dominican Republic"
+ DOM_ADJ:0 "Dominica"
+
+ GUA:0 "Guatemala"
+ GUA_DEF:0 "Guatemala"
+ GUA_ADJ:0 "Guatemala"
+
+ ELS:0 "El Salvador"
+ ELS_DEF:0 "El Salvador"
+ ELS_ADJ:0 "El Salvador"
+
+ HON:0 "Honduras"
+ HON_DEF:0 "Honduras"
+ HON_ADJ:0 "Honduras"
+
+ NIC:0 "Nicaragua"
+ NIC_DEF:0 "Nicaragua"
+ NIC_ADJ:0 "Nicaragua"
+
+ COS:0 "Costa Rica"
+ COS_DEF:0 "Costa Rica"
+ COS_ADJ:0 "Costa Rica"
+
+ PAN:0 "Panama"
+ PAN_DEF:0 "Panama"
+ PAN_ADJ:0 "Panama"
+
+ BRA:0 "United States of Brazil"
+ BRA_DEF:0 "United States of Brazil"
+ BRA_ADJ:0 "Brazilian"
+
+ ARG:0 "Argentine Republic"
+ ARG_DEF:0 "Argentine Republic"
+ ARG_ADJ:0 "Argentine"
+
+ CHL:0 "Republic of Chile"
+ CHL_DEF:0 "Republic of Chile"
+ CHL_ADJ:0 "Chile"
+
+ URG:0 "Uruguay"
+ URG_DEF:0 "Oriental Republic of Uruguay"
+ URG_ADJ:0 "Uruguay"
+
+ PAR:0 "Republic of Paraguay"
+ PAR_DEF:0 "Republic of Paraguay"
+ PAR_ADJ:0 "Paraguay"
+
+ PRU:0 "Republic of Peru"
+ PRU_DEF:0 "Republic of Peru"
+ PRU_ADJ:0 "Peruvian"
+
+ BOL:0 "Republic of Bolivia"
+ BOL_DEF:0 "Republic of Bolivia"
+ BOL_ADJ:0 "Bolivian"
+
+ COL:0 "Republic of Colombia"
+ COL_DEF:0 "Republic of Colombia"
+ COL_ADJ:0 "Colombian"
+
+ VEN:0 "Republic of Venezuela"
+ VEN_DEF:0 "Republic of Venezuela"
+ VEN_ADJ:0 "Venezuela"
+
+ ECU:0 "Ecuador"
+ ECU_DEF:0 "Republic of Ecuador"
+ ECU_ADJ:0 "Ecuador"

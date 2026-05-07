@@ -30,11 +30,11 @@ characters={
 	}
 
 	### Field Marshals ###
-	IBR_augustin_munoz_grandes = {
-		name = IBR_augustin_munoz_grandes
+	IBR_agustin_munoz_grandes = {
+		name = IBR_agustin_munoz_grandes
 		portraits = {
 			army = {
-				large = "gfx/leaders/IBR/IBR_augustin_munoz_grandes.png"
+				large = "gfx/leaders/IBR/IBR_agustin_munoz_grandes.png"
 			}
 		}
 		field_marshal = {
@@ -91,11 +91,11 @@ characters={
 		}
 	}
 
-	IBR_vincente_rojo_lluch = {
-		name = IBR_vincente_rojo_lluch
+	IBR_vicente_rojo_lluch = {
+		name = IBR_vicente_rojo_lluch
 		portraits = {
 			army = {
-				large = "gfx/leaders/IBR/IBR_vincente_rojo_lluch.png"
+				large = "gfx/leaders/IBR/IBR_vicente_rojo_lluch.png"
 			}
 		}
 		corps_commander = {
