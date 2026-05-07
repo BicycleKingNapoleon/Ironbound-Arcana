@@ -85,6 +85,36 @@ SWE = {
 	color_ui = rgb { 87 143 222 }
 }
 
+NOR = {
+	color = rgb { 171 98 97 }
+	color_ui = rgb { 171 98 97 }
+}
+
+DEN = {
+	color = rgb { 213 144 156 }
+	color_ui = rgb { 213 144 156 }
+}
+
+HUN = {
+	color = rgb { 164 142 138 }
+	color_ui = rgb { 164 142 138 }
+}
+
+AUS = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 194 198 215 }
+}
+
+TUR = {
+	color = rgb { 163 114 116 }
+	color_ui = rgb { 163 114 116 }
+}
+
+RHE = {
+	color = rgb { 91 186 218 }
+	color_ui = rgb { 91 186 218 }
+}
+
 # Vanilla
 
 GER = {
@@ -97,10 +127,6 @@ LUX = {
 }
 CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
-}
-AUS = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
 }
 LIT = {
 	color = rgb { 219 219 119 }
@@ -126,10 +152,6 @@ YUG = {
 	color = rgb { 72 73 126 }
 	color_ui = rgb { 94 95 164 }
 }
-TUR = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
-}
 GRE = {
 	color = rgb { 93 181 227 }
 	color_ui = rgb { 121 235 255 }
@@ -138,14 +160,6 @@ ALB = {
 	color = rgb { 149 45 102 }
 	color_ui = rgb { 194 59 133 }
 }
-NOR = {
-	color = rgb { 111 71 71 }
-	color_ui = rgb { 144 92 92 }
-}
-DEN = {
-	color = rgb { 153 116 93 }
-	color_ui = rgb { 199 151 121 }
-}
 BUL = {
 	color = rgb { 51 155 0 }
 	color_ui = rgb { 51 155 0 }
@@ -153,14 +167,6 @@ BUL = {
 POR = {
 	color = rgb { 39 116 70 }
 	color_ui = rgb { 51 151 91 }
-}
-IRE = {
-	color = rgb { 80 159 90 }
-	color_ui = rgb { 104 207 117 }
-}
-HUN = {
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 255 164 127 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
