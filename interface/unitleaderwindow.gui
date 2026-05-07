@@ -50,7 +50,7 @@ guiTypes = {
 			position = { x = 205 y = 40 }
 			size = {x=267 y=20}
 			#textureFile = ""
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			borderSize = {x = 0 y = 0}
 			text = UNIT_LEADER_SEARCH
 			#maxWidth = 300
@@ -72,7 +72,7 @@ guiTypes = {
 			position = {x=455 y=38}
 			spriteType = "GFX_sort_button_83x29"
 			buttonText = UNIT_LEADER_CAPACITY_SORT
-			buttonFont = "NexonLV2_Medium_14_outline"
+			buttonFont = "aldrich_14_outline"
 			clicksound = click_scroll
 			frame = 1
 		}
@@ -202,7 +202,7 @@ guiTypes = {
 	# ARMY LEADER ENTRY
 	containerWindowType = {
 		name = "armyleaderentry"
-		size = { width=510 height=98 }
+		size = { width=510 height=98X }
 		clipping = no
 		fade_time = 500
 		fade_type = linear
@@ -214,9 +214,9 @@ guiTypes = {
 
 		buttonType = {
 			name = "leader_button"
-			position = {x=57 y=9}
+			position = {x=55 y=5}
 			quadTextureSprite ="GFX_leader_unknown"
-			scale = 0.39
+			scale = 0.42
 		}
 
 		iconType = {
@@ -276,7 +276,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "divisions_count"
 			position = {x=417 y=15}
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			maxWidth = 85
 			maxHeight = 23
 			format = centre
@@ -284,8 +284,8 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "title"
-			position = { x = 129 y = 12 }
-			font = "NexonLV2_Medium_18_outline"
+			position = { x = 130 y = 8 }
+			font = "aldrich_22_outline"
 			text = "Mr."
 			maxWidth = 150
 			maxHeight = 18
@@ -293,8 +293,8 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "name"
-			position = { x = 129 y = 31 }
-			font = "NexonLV2_Medium_14_outline"
+			position = { x = 130 y = 30 }
+			font = "aldrich_18_outline"
 			text = "name"
 			maxWidth = 188
 			maxHeight = 18
@@ -336,7 +336,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_attack"
 			position = {x=309 y=29}
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			maxWidth = 30
 			maxHeight = 23
 			format = center
@@ -352,7 +352,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_defense"
 			position = {x=336 y=29}
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			maxWidth = 30
 			maxHeight = 23
 			format = center
@@ -368,7 +368,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_planning"
 			position = {x=363 y=29}
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			maxWidth = 30
 			maxHeight = 23
 			format = center
@@ -384,7 +384,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_logistics"
 			position = {x=389 y=29}
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			maxWidth = 30
 			maxHeight = 23
 			format = center
@@ -439,7 +439,7 @@ guiTypes = {
 			position = { x = 205 y = 40 }
 			size = {x=267 y=20}
 			#textureFile = ""
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			borderSize = {x = 0 y = 0}
 			text = "UNIT_LEADER_SEARCH"
 			#maxWidth = 300
@@ -461,7 +461,7 @@ guiTypes = {
 			position = {x=455 y=38}
 			spriteType = "GFX_sort_button_83x29"
 			buttonText = UNIT_LEADER_CAPACITY_SORT
-			buttonFont = "NexonLV2_Medium_14_outline"
+			buttonFont = "aldrich_14_outline"
 			clicksound = click_scroll
 			frame = 1
 		}
@@ -628,7 +628,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "divisions_count"
 			position = {x=417 y=16}
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			maxWidth = 85
 			maxHeight = 23
 			format = centre
@@ -637,7 +637,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 129 y = 12 }
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			text = "Mr."
 			maxWidth = 150
 			maxHeight = 16
@@ -646,7 +646,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 129 y = 31 }
-			font = "NexonLV2_Medium_14_outline"
+			font = "aldrich_14_outline"
 			text = "name"
 			maxWidth = 180
 			maxHeight = 18
@@ -699,7 +699,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_attack"
 			position = {x=309 y=31}
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			maxWidth = 30
 			maxHeight = 23
 			format = center
@@ -715,7 +715,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_defense"
 			position = {x=336 y=31}
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			maxWidth = 30
 			maxHeight = 23
 			format = center
@@ -731,7 +731,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_maneuvering"
 			position = {x=362 y=31}
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			maxWidth = 30
 			maxHeight = 23
 			format = center
@@ -747,7 +747,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_coordination"
 			position = {x=389 y=31}
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			maxWidth = 30
 			maxHeight = 23
 			format = center
@@ -787,7 +787,7 @@ guiTypes = {
 			position = {x=92 y=38}
 			spriteType = "GFX_sort_button_83x29"
 			buttonText = UNIT_LEADER_NAME_SORT
-			buttonFont = "NexonLV2_Medium_18_outline"
+			buttonFont = "aldrich_18_outline"
 			clicksound = click_scroll
 			frame = 1
 		}
@@ -797,7 +797,7 @@ guiTypes = {
 			position = { x = 205 y = 39 }
 			size = {x=267 y=20}
 			#textureFile = ""
-			font = "NexonLV2_Medium_18_outline"
+			font = "aldrich_18_outline"
 			borderSize = {x = 0 y = 0}
 			text = "UNIT_LEADER_SEARCH"
 			#maxWidth = 300
@@ -810,7 +810,7 @@ guiTypes = {
 			position = {x=11 y=38}
 			spriteType = "GFX_sort_button_83x29"
 			buttonText = UNIT_LEADER_SKILL_SORT
-			buttonFont = "NexonLV2_Medium_18_outline"
+			buttonFont = "aldrich_18_outline"
 			clicksound = click_scroll
 		}
 
@@ -860,7 +860,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "resume_mission_txt"
 			position = {x=150 y=564 }
-			font = "NexonLV2_Medium_14_outline"
+			font = "aldrich_14_outline"
 			format = left
 			text = "OPERATIVE_RESUME_MISSION_AFTER_OPERATION_CHECKBOX_LABEL"
 			pdx_tooltip = "OPERATIVE_RESUME_MISSION_AFTER_OPERATION_TOOLTIP"
@@ -931,7 +931,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 123 y = 12 }
-			font = "NexonLV2_Medium_14_outline"
+			font = "aldrich_14_outline"
 			text = "Mr."
 			maxWidth = 100
 			maxHeight = 18
@@ -940,7 +940,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 123 y = 30 }
-			font = "NexonLV2_Medium_14_outline"
+			font = "aldrich_14_outline"
 			text = "name"
 			maxWidth = 210
 			maxHeight = 18
@@ -981,7 +981,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "unit_leader_trait_entry"
 		size = { width=24 height=32 }
-		position = { x = 5 y = -5 }
+		position = { x = 10 y = -5 }
 		clipping = no
 				
 		background = {
@@ -1070,7 +1070,7 @@ guiTypes = {
 			position = {x=11 y=39}
 			spriteType = "GFX_sort_button_83x29"
 			#buttonText = "DIVISION_COMMANDER_EXPERIENCE_SORT"
-			buttonFont = "NexonLV2_Medium_14_outline"
+			buttonFont = "aldrich_14_outline"
 			clicksound = click_scroll
 			frame = 1
 		}
@@ -1080,7 +1080,7 @@ guiTypes = {
 			position = {x=92 y=39}
 			spriteType = "GFX_sort_button_83x29"
 			buttonText = "DIVISION_COMMANDER_TYPE_SORT"
-			buttonFont = "NexonLV2_Medium_14_outline"
+			buttonFont = "aldrich_14_outline"
 			clicksound = click_scroll
 			frame = 1
 		}		
@@ -1098,7 +1098,7 @@ guiTypes = {
 			size = { x = 200 y = 28 } 
 			spriteType = "GFX_sort_button_83x29"
 			buttonText = "DIVISION_COMMANDER_MEDALS_SORT"
-			buttonFont = "NexonLV2_Medium_14_outline"
+			buttonFont = "aldrich_14_outline"
 			clicksound = click_scroll
 			frame = 1
 		}
@@ -1116,7 +1116,7 @@ guiTypes = {
 			size = { x = 200 y = 28 } 
 			spriteType = "GFX_sort_button_83x29"
 			buttonText = "DIVISION_COMMANDER_TOTAL_EXPERIENCE_SORT"
-			buttonFont = "NexonLV2_Medium_14_outline"
+			buttonFont = "aldrich_14_outline"
 			clicksound = click_scroll
 			frame = 1
 		}
@@ -1235,7 +1235,7 @@ guiTypes = {
 			position = {x=323 y=56 }
 			quadTextureSprite ="GFX_sort_button_83x29"
 			buttonText = DIVISION_DETAILS 
-			buttonFont = "NexonLV2_Medium_14_outline"	
+			buttonFont = "aldrich_14_outline"	
 			clicksound = click_default	
 			pdx_tooltip = "OPEN_LEADER_DETAILS"		
 			frame = 1
@@ -1246,7 +1246,7 @@ guiTypes = {
 			position = {x=411 y=56}	
 			quadTextureSprite ="GFX_sort_button_83x29"
 			buttonText = UNIT_LEADER_PROMOTE
-			buttonFont = "NexonLV2_Medium_14_outline"	
+			buttonFont = "aldrich_14_outline"	
 			clicksound = click_default		
 			frame = 1
 			alwaystransparent = no
@@ -1261,7 +1261,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 118 y = 10 }
-			font = "NexonLV2_Medium_14_outline"
+			font = "aldrich_14_outline"
 			text = "Mr."
 			maxWidth = 180
 			multiline = no
@@ -1272,7 +1272,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "division_name"
 			position = { x = 118 y = 28 }
-			font = "NexonLV2_Medium_14_outline"
+			font = "aldrich_14_outline"
 			text = "Mr."
 			maxWidth = 180
 			multiline = no
@@ -1283,7 +1283,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "gained_xp"
 			position = { x = 429 y = 19 }
-			font = "NexonLV2_Medium_14_outline"
+			font = "aldrich_14_outline"
 			text = "Mr."
 			maxWidth = 60
 			multiline = no
