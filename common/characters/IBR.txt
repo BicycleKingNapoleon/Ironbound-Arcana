@@ -1,8 +1,12 @@
 characters={
+	### Leaders ###
 	IBR_francisco_franco = {
 		name = IBR_francisco_franco
 		portraits = {
 			civilian = {
+				large = "gfx/leaders/IBR/IBR_francisco_franco.png"
+			}
+			army = {
 				large = "gfx/leaders/IBR/IBR_francisco_franco.png"
 			}
 		}
@@ -10,6 +14,99 @@ characters={
 			desc = "IBR_francisco_franco_desc"
 			ideology = despotism_subtype
 			expire = "1990.10.20"
+		}
+		field_marshal = {
+			traits={
+				logistics_wizard
+				organisational_leader
+				expert_delegator
+			}
+			skill= 3
+			attack_skill= 3
+			defense_skill= 2
+			planning_skill= 3
+			logistics_skill= 2
+		}
+	}
+
+	### Field Marshals ###
+	IBR_augustin_munoz_grandes = {
+		name = IBR_augustin_munoz_grandes
+		portraits = {
+			army = {
+				large = "gfx/leaders/IBR/IBR_augustin_munoz_grandes.png"
+			}
+		}
+		field_marshal = {
+			traits = {
+				organizer
+				thorough_planner
+				old_guard
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	### Generals ###
+	IBR_ho_chi_minh = {
+		name = IBR_ho_chi_minh
+		portraits = {
+			army = {
+				large = "gfx/leaders/IBR/IBR_ho_chi_minh.png"
+			}
+		}
+		corps_commander = {
+			traits={
+				politically_connected
+			}
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+
+	IBR_mohamed_meziane = {
+		name = IBR_mohamed_meziane
+		portraits = {
+			army = {
+				large = "gfx/leaders/IBR/IBR_mohamed_meziane.png"
+			}
+		}
+		corps_commander = {
+			traits={
+				career_officer
+				harsh_leader
+			}
+			skill=4
+			attack_skill=5
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+
+	IBR_vincente_rojo_lluch = {
+		name = IBR_vincente_rojo_lluch
+		portraits = {
+			army = {
+				large = "gfx/leaders/IBR/IBR_vincente_rojo_lluch.png"
+			}
+		}
+		corps_commander = {
+			traits={
+				brilliant_strategist
+			}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
 		}
 	}
 }

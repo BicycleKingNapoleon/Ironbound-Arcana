@@ -6,7 +6,14 @@ set_research_slots = 3
 set_convoys = 50
 set_war_support = 0.3
 
+### Leaders ###
 recruit_character = IBR_francisco_franco
+
+### Generals ###
+recruit_character = IBR_augustin_munoz_grandes
+recruit_character = IBR_ho_chi_minh
+recruit_character = IBR_vincente_rojo_lluch
+recruit_character = IBR_mohamed_meziane
 
 set_politics = {
 	ruling_party = despotism
