@@ -99,6 +99,18 @@
  SGF_DEF:0 "South German Federation"
  SGF_ADJ:0 "South German"
 
+ ROM:0 "Kingdom of Romania"
+ ROM_DEF:0 "Kingdom of Romania"
+ ROM_ADJ:0 "Romanian"
+
+ BUL:0 "Tsardom of Bulgaria"
+ BUL_DEF:0 "Tsardom of Bulgaria"
+ BUL_ADJ:0 "Bulgaria"
+
+ ICE:0 "Iceland"
+ ICE_DEF:0 "Iceland"
+ ICE_ADJ:0 "Iceland"
+
  ############
  ### Asia ###
  ############
