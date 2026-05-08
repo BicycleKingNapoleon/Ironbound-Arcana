@@ -135,6 +135,18 @@
  TUR_DEF:0 "Ottoman Empire"
  TUR_ADJ:0 "Ottoman"
 
+ AFG:0 "Kingdom of Afghanistan"
+ AFG_DEF:0 "Kingdom of Afghanistan"
+ AFG_ADJ:0 "Afghanistan"
+
+ IRQ:0 "Kingdom of Iraq"
+ IRQ_DEF:0 "Kingdom of Iraq"
+ IRQ_ADJ:0 "Iraqi"
+
+ SYR:0 "Republic of Syria"
+ SYR_DEF:0 "Republic of Syria"
+ SYR_ADJ:0 "Syrian"
+
  #####################
  ### North America ###
  #####################

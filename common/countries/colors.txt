@@ -178,6 +178,21 @@ YUG = {
 	color_ui = rgb { 51 65 99 }
 }
 
+AFG = {
+	color = rgb { 100 123 114 }
+	color_ui = rgb { 100 123 114 }
+}
+
+IRQ = {
+	color = rgb { 150 124 93 }
+	color_ui = rgb { 150 124 93 }
+}
+
+SYR = {
+	color = rgb { 100 100 150 }
+	color_ui = rgb { 100 100 150 }
+}
+
 # Vanilla
 
 CZE = {	color = rgb { 54 167 156 }
@@ -202,10 +217,6 @@ SPR = {
 POR = {
 	color = rgb { 39 116 70 }
 	color_ui = rgb { 51 151 91 }
-}
-AFG = {
-	color = rgb { 64 160 167 }
-	color_ui = rgb { 83 208 217 }
 }
 ARG = {
 	color = rgb { 145 157 236 }
@@ -262,10 +273,6 @@ GUA = {
 HON = {
 	color = rgb { 128 145 65 }
 	color_ui = rgb { 128 145 65 }
-}
-IRQ = {
-	color = rgb { 178 114 99 }
-	color_ui = rgb { 231 148 129 }
 }
 JAP = {
 	color = hsv { 0.05 0.3 1 }
@@ -412,11 +419,6 @@ LEB = {
 JOR = {
 	color = rgb { 111  55  78 }
 	color_ui = rgb { 111  55  78 }
-}
-
-SYR = {
-	color = rgb { 100  100  150 }
-	color_ui = rgb { 100  100  150 }
 }
 
 SER = {
