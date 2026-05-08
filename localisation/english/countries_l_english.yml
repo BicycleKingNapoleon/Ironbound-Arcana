@@ -83,8 +83,8 @@
  DEN_DEF:0 "Kingdom of Denmark"
  DEN_ADJ:0 "Danish"
 
- HUN:0 "Kingdom of Hungary"
- HUN_DEF:0 "Kingdom of Hungary"
+ HUN:0 "Hungarian Soviet Republic"
+ HUN_DEF:0 "Hungarian Soviet Republic"
  HUN_ADJ:0 "Hungarian"
 
  ALB:0 "Kingdom of Albania"
@@ -110,6 +110,14 @@
  ICE:0 "Iceland"
  ICE_DEF:0 "Iceland"
  ICE_ADJ:0 "Iceland"
+
+ GRE:0 "Kingdom of Greece"
+ GRE_DEF:0 "Kingdom of Greece"
+ GRE_ADJ:0 "Greek"
+
+ YUG:0 "Federal Republic of Yugoslavia"
+ YUG_DEF:0 "Federal Republic of Yugoslavia"
+ YUG_ADJ:0 "Yugoslavian"
 
  ############
  ### Asia ###

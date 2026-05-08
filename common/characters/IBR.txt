@@ -62,6 +62,7 @@ characters={
 		corps_commander = {
 			traits={
 				politically_connected
+				commando
 			}
 			skill=2
 			attack_skill=1

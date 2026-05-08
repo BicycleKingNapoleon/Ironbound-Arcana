@@ -168,6 +168,16 @@ HAI = {
 	color_ui = rgb { 69 76 153 }
 }
 
+GRE = {
+	color = rgb { 98 183 198 }
+	color_ui = rgb { 98 183 198 }
+}
+
+YUG = {
+	color = rgb { 51 65 99 }
+	color_ui = rgb { 51 65 99 }
+}
+
 # Vanilla
 
 CZE = {	color = rgb { 54 167 156 }
@@ -188,14 +198,6 @@ LAT = {
 SPR = {
 	color = rgb { 242 205 94 }
 	color_ui = rgb { 255 255 122 }
-}
-YUG = {
-	color = rgb { 72 73 126 }
-	color_ui = rgb { 94 95 164 }
-}
-GRE = {
-	color = rgb { 93 181 227 }
-	color_ui = rgb { 121 235 255 }
 }
 POR = {
 	color = rgb { 39 116 70 }
