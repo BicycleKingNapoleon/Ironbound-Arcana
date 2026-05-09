@@ -119,6 +119,14 @@
  YUG_DEF:0 "Federal Republic of Yugoslavia"
  YUG_ADJ:0 "Yugoslavian"
 
+ SER:0 "Kingdom of Serbia"
+ SER_DEF:0 "Kingdom of Serbia"
+ SER_ADJ:0 "Serbian"
+
+ MNT:0 "Montenegro"
+ MNT_DEF:0 "Kingdom of Montenegro"
+ MNT_ADJ:0 "Montenegro"
+
  ############
  ### Asia ###
  ############
@@ -278,3 +286,15 @@
  LIB:0 "Liberia"
  LIB_DEF:0 "Liberia"
  LIB_ADJ:0 "Liberian"
+
+ ###############
+ ### Oceania ###
+ ###############
+
+ AST:0 "Commonwealth of Australia"
+ AST_DEF:0 "Commonwealth of Australia"
+ AST_ADJ:0 "Australian"
+
+ NZL:0 "New Zealand"
+ NZL_DEF:0 "New Zealand"
+ NZL_ADJ:0 "New Zealand"
