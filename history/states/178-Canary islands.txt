@@ -7,7 +7,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = SPR
+		owner = UOK
 		victory_points = {
 			13071 1
 		}
@@ -22,6 +22,7 @@ state={
 		}
 
 		add_core_of = SPR
+		add_core_of = UOK
 	}
 
 	provinces={

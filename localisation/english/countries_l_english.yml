@@ -127,6 +127,10 @@
  MON_DEF:0 "Duchy of Mongolia"
  MON_ADJ:0 "Mongolian"
 
+ RAJ:0 "Republic of India"
+ RAJ_DEF:0 "Republic of India"
+ RAJ_ADJ:0 "Indian"
+
  PER:0 "Imperial State of Iran"
  PER_DEF:0 "Imperial State of Iran"
  PER_ADJ:0 "Iranian"
@@ -146,6 +150,22 @@
  SYR:0 "Republic of Syria"
  SYR_DEF:0 "Republic of Syria"
  SYR_ADJ:0 "Syrian"
+
+ SAU:0 "Kingdom of Saudi Arabia"
+ SAU_DEF:0 "Kingdom of Saudi Arabia"
+ SAU_ADJ:0 "Saudi Arabian"
+
+ YEM:0 "Mutawakkilite Kingdom of Yemen"
+ YEM_DEF:0 "Mutawakkilite Kingdom of Yemen"
+ YEM_ADJ:0 "Yemeni"
+
+ OMA:0 "Sultanate of Muscat and Oman"
+ OMA_DEF:0 "Sultanate of Muscat and Oman"
+ OMA_ADJ:0 "Omani"
+
+ JOR:0 "Jordan"
+ JOR_DEF:0 "Hashemite Kingdom of Jordan"
+ JOR_ADJ:0 "Jordan"
 
  #####################
  ### North America ###
@@ -242,3 +262,19 @@
  ECU:0 "Ecuador"
  ECU_DEF:0 "Republic of Ecuador"
  ECU_ADJ:0 "Ecuador"
+
+ ##############
+ ### Africa ###
+ ##############
+
+ POR:0 "Portugal"
+ POR_DEF:0 "Portugal"
+ POR_ADJ:0 "Portuguese"
+
+ SAF:0 "Union of South Africa"
+ SAF_DEF:0 "Union of South Africa"
+ SAF_ADJ:0 "South African"
+
+ LIB:0 "Liberia"
+ LIB_DEF:0 "Liberia"
+ LIB_ADJ:0 "Liberian"

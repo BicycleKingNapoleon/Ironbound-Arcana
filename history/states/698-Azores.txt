@@ -6,7 +6,7 @@ state={
 	state_category = small_island
 	
 	history={
-		owner = POR
+		owner = UOK
 		victory_points = {
 			1751 3 
 		}
@@ -20,6 +20,7 @@ state={
 		strategic_state_location = {
 			favorable_approach = 1751
 		}
+		add_core_of = UOK
 		add_core_of = POR
 	}
 	

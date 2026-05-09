@@ -193,6 +193,51 @@ SYR = {
 	color_ui = rgb { 100 100 150 }
 }
 
+SAU = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 171 190 152 }
+}
+
+LEB = {
+	color = rgb { 77 105 67 }
+	color_ui = rgb { 77 105 67 }
+}
+
+JOR = {
+	color = rgb { 139 118 95 }
+	color_ui = rgb { 139 118 95 }
+}
+
+YEM = {
+	color = rgb { 155 39 50 }
+	color_ui = rgb { 155 39 50 }
+}
+
+OMA = {
+	color = rgb { 155 101 107 }
+	color_ui = rgb { 155 101 107 }
+}
+
+LIB = {
+	color = rgb { 149 132 169 }
+	color_ui = rgb { 149 132 169 }
+}
+
+RAJ = {
+	color = rgb { 221 180 86 }
+	color_ui = rgb { 221 180 86 }
+}
+
+CUB = {
+	color = rgb { 131 126 135 }
+	color_ui = rgb { 131 126 135 }
+}
+
+COG = {
+	color = rgb { 159 130 108 }
+	color_ui = rgb { 159 130 108 }
+}
+
 # Vanilla
 
 CZE = {	color = rgb { 54 167 156 }
@@ -244,7 +289,7 @@ CHI = {
 }
 CHL = {
 	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color_ui = rgb { 155 39 50 }
 }
 COL = {
 	color = rgb { 222 187 91 }
@@ -278,10 +323,6 @@ JAP = {
 	color = hsv { 0.05 0.3 1 }
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
-LIB = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
-}
 NEP = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
@@ -309,10 +350,6 @@ PRU = {
 SAF = {
 	color = rgb { 195 107 160 }
 	color_ui = rgb { 198 169 248 }
-}
-SAU = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
 }
 SIA = {
 	color = rgb { 171 190 152 }
@@ -350,25 +387,9 @@ PAR = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
 }
-CUB = {
-	color = rgb { 140 65 166 }
-	color_ui = rgb { 140 65 166 }
-}
-YEM = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
-}
-OMA = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
-}
 SLO = {
 	color = rgb { 158  161  188 }
 	color_ui = rgb { 255 255 255 }
-}
-RAJ = {
-	color = rgb { 226  135  40 }
-	color_ui = rgb { 226  135  40 }
 }
 
 CRO = {
@@ -409,16 +430,6 @@ EGY = {
 PAL = {
 	color = rgb { 170  125  80 }
 	color_ui = rgb { 170  125  80 }
-}
-
-LEB = {
-	color = rgb { 130  150  60 }
-	color_ui = rgb { 130  150  60 }
-}
-
-JOR = {
-	color = rgb { 111  55  78 }
-	color_ui = rgb { 111  55  78 }
 }
 
 SER = {
@@ -489,10 +500,6 @@ ANG = {
 	color_ui = rgb { 37 140 61 }
 }
 
-COG = {
-	color = rgb { 152 159 209 }
-	color_ui = rgb { 152 159 209 }
-}
 MZB = {
 	color = rgb { 112 62 90 }
 	color_ui = rgb { 112 62 90 }
