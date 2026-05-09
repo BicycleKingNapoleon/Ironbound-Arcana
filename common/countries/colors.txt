@@ -238,6 +238,11 @@ COG = {
 	color_ui = rgb { 159 130 108 }
 }
 
+SER = {
+	color = rgb { 109 189 195 }
+	color_ui = rgb { 109 189 195 }
+}
+
 # Vanilla
 
 CZE = {	color = rgb { 54 167 156 }
@@ -430,11 +435,6 @@ EGY = {
 PAL = {
 	color = rgb { 170  125  80 }
 	color_ui = rgb { 170  125  80 }
-}
-
-SER = {
-	color = rgb { 160 110 110 }
-	color_ui = rgb { 160 110 110 }
 }
 
 UKR = {
