@@ -1,0 +1,51 @@
+add_namespace = syd_integration
+
+country_event = {
+    id = syd_integration.1
+    title = syd_integration.1.t
+    desc = syd_integration.1.d
+    picture = GFX_report_event_australian_parliament
+    is_triggered_only = yes
+    option = {
+        name = syd_integration.1.a
+        ai_chance = { base = 99 }
+        FROM = { country_event = { id = syd_integration.2 } }
+    }
+    option = {
+        name = syd_integration.1.b
+        ai_chance = { base = 1 }
+        FROM = { country_event = { id = syd_integration.3 } }
+    }
+}
+
+country_event = {
+    id = syd_integration.2
+    title = syd_integration.2.t
+    desc = syd_integration.2.d
+    picture = GFX_report_event_australian_parliament
+    is_triggered_only = yes
+    option = {
+        name = syd_integration.2.a
+        FROM = {
+            every_owned_state = {
+                add_core_of = ROOT
+            }
+        }
+        annex_country = { target = FROM transfer_troops = no }
+    }
+}
+
+country_event = {
+    id = syd_integration.3
+    title = syd_integration.3.t
+    desc = syd_integration.3.d
+    picture = GFX_report_event_picket_line
+    is_triggered_only = yes
+    option = {
+        name = syd_integration.3.a
+        create_wargoal = {
+            type = annex_everything
+            target = FROM
+        }
+    }
+}

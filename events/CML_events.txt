@@ -1,0 +1,35 @@
+add_namespace = cml_civilwar
+
+country_event = {
+	id = cml_civilwar.1
+	title = cml_civilwar.1.t
+	desc = cml_civilwar.1.d
+	picture = GFX_report_event_generic
+	is_triggered_only = yes
+
+	option = {
+		name = option_name
+			CSL = {
+				declare_war_on = {
+					target = CML
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CNL
+					type = annex_everything
+				}
+			}
+			CNL = {
+				declare_war_on = {
+					target = CML
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSL
+					type = annex_everything
+				}
+			}
+		}
+		
+		
+}

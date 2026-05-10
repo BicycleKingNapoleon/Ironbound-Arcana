@@ -303,6 +303,16 @@ ECU = {
 	color_ui = rgb { 107 126 177 }
 }
 
+KUW = {
+	color = rgb { 124 93 54 }
+	color_ui = rgb { 124 93 54 }
+}
+
+BRM = {
+	color = rgb { 105 135 48 }
+	color_ui = rgb { 105 135 48 }
+}
+
 # Vanilla
 
 CZE = {	color = rgb { 54 167 156 }

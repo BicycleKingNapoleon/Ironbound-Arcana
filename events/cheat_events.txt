@@ -1,0 +1,725 @@
+add_namespace = CHEAT
+country_event = {
+	id =CHEAT.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event CHEAT.1"
+	}
+	title = CHEAT.1.t
+	desc = CHEAT.1.desc
+	picture = GFX_event_CHEAT.1
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = CHEAT.1.a
+			hidden_effect = {
+				division_template = {
+					name = "Defense Division"
+					priority = 1
+					#division_names_group = CHEAT_infantry
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+					}
+				}
+				random_owned_state = {
+					limit = { is_core_of = ROOT }
+					create_unit = {
+						division = "division_template = \"Defense Division\" start_experience_factor = 0.5" 
+						owner = ROOT
+					}
+				}
+				random_owned_state = {
+					limit = { is_core_of = ROOT }
+					create_unit = {
+						division = "division_template = \"Defense Division\" start_experience_factor = 0.5" 
+						owner = ROOT
+					}
+				}
+				random_owned_state = {
+					limit = { is_core_of = ROOT }
+					create_unit = {
+						division = "division_template = \"Defense Division\" start_experience_factor = 0.5" 
+						owner = ROOT
+					}
+				}
+				random_owned_state = {
+					limit = { is_core_of = ROOT }
+					create_unit = {
+						division = "division_template = \"Defense Division\" start_experience_factor = 0.5" 
+						owner = ROOT
+					}
+				}
+				random_owned_state = {
+					limit = { is_core_of = ROOT }
+					create_unit = {
+						division = "division_template = \"Defense Division\" start_experience_factor = 0.5" 
+						owner = ROOT
+					}
+				}
+				random_owned_state = {
+					limit = { is_core_of = ROOT }
+					create_unit = {
+						division = "division_template = \"Defense Division\" start_experience_factor = 0.5" 
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+
+country_event = {
+	id =CHEAT.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event CHEAT.2"
+	}
+	title = CHEAT.2.t
+	desc = CHEAT.2.desc
+	picture = GFX_event_CHEAT.2
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = CHEAT.2.a
+		hidden_effect = {
+			division_template = {
+				name = "Reinforced Defense Division"
+				priority = 1
+				#division_names_group = CHEAT_infantry
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 2 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+					field_hospital = { x = 0 y = 1 }
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Defense Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id =CHEAT.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event CHEAT.3"
+	}
+	title = CHEAT.3.t
+	desc = CHEAT.3.desc
+	picture = GFX_event_CHEAT.3
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = CHEAT.3.a
+		hidden_effect = {
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			} 
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			} 
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			} 
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id =CHEAT.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event CHEAT.4"
+	}
+	title = CHEAT.4.t
+	desc = CHEAT.4.desc
+	picture = GFX_event_CHEAT.4
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = CHEAT.4.a
+		hidden_effect = {
+			division_template = {
+				name = "Reinforced Cavalry Division"
+				priority = 1
+				#division_names_group = CHEAT_infantry
+				regiments = {
+					cavalry = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry = { x = 0 y = 2 }
+					cavalry = { x = 1 y = 0 }
+					cavalry = { x = 1 y = 1 }
+					cavalry = { x = 1 y = 2 }
+					cavalry = { x = 2 y = 0 }
+					cavalry = { x = 2 y = 1 }
+					cavalry = { x = 2 y = 2 }
+				}
+				support = {
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				create_unit = {
+					division = "division_template = \"Reinforced Cavalry Division\" start_experience_factor = 1" 
+					owner = ROOT
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id =CHEAT.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event CHEAT.5"
+	}
+	title = CHEAT.5.t
+	desc = CHEAT.5.desc
+	picture = GFX_event_CHEAT.5
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = CHEAT.5.a
+		every_owned_state = {
+			add_core_of = ROOT
+		}	
+	}
+}
+
+country_event = {
+	id =CHEAT.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event CHEAT.6"
+	}
+	title = CHEAT.6.t
+	desc = CHEAT.6.desc
+	picture = GFX_event_CHEAT.6
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = CHEAT.6.a
+		overlord = {
+			set_autonomy = {
+				target = ROOT
+				autonomous_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+		ROOT = {
+			leave_faction = yes
+		}
+	}
+	option = {
+		name = CHEAT.6.b
+		overlord = {
+			set_autonomy = {
+				target = ROOT
+				autonomous_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	option = {
+		name = CHEAT.6.c
+		ROOT = {
+			leave_faction = yes
+		}
+	}
+}
+
+country_event = {
+	id =CHEAT.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event CHEAT.7"
+	}
+	title = CHEAT.7.t
+	desc = CHEAT.7.desc
+	picture = GFX_event_CHEAT.7
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = CHEAT.7.a
+		ROOT = {
+			dismantle_faction = yes
+		}
+	}
+}
+
+country_event = {
+	id =CHEAT.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event CHEAT.8"
+	}
+	title = CHEAT.8.t
+	desc = CHEAT.8.desc
+	picture = GFX_event_CHEAT.8
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = CHEAT.8.a
+		every_owned_state = { 	
+			set_demilitarized_zone = yes
+		}
+	}
+}
+
+country_event = {
+	id =CHEAT.9
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event CHEAT.9"
+	}
+	title = CHEAT.9.t
+	desc = CHEAT.9.desc
+	picture = GFX_event_CHEAT.9
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = CHEAT.9.a
+		525 = { set_state_name = STATE_525_SEOUL_SPECIAL_CITY_INCHEON_METROPOLITAN_CITY_SUWON_SPECIAL_CASE_CITY_GOYANG_SPECIAL_CASE_CITY_YONGIN_SPECIAL_CASE_CITY_HWASEONG_SPECIAL_CASE_CITY_PYEONGHWA_NURI_SPECIAL_SELF_GOVERNING_PROVINCE_AND_GYEONGGI_DO }
+		1022 = { set_state_name = STATE_1022_DAEGU_GYEONGBUK_INTERGRATED_SPECIAL_CITY_BUSAN_ULSAN_GYEONGNAM_INTERGRATED_SPECIAL_CITY_CHANGWON_SPECIAL_CASE_CITY}
+		1023 = { set_state_name = STATE_1023_JEONBUK_SPECIAL_SELF_GOVERNING_PROVINCE_JEONNAM_GWANGJU_INTERGRATED_SPECIAL_CITY_AND_JEJU_SPECIAL_SELF_GOVERNING_PROVINCE }
+		1024 = { set_state_name = STATE_1024_CHUNGNAM_DAEJEON_INTERGRATED_SPECIAL_CITY_CHUBGBUK_SPECIAL_SELF_GOVERNING_PROVINCE_AND_SEJONG_SPECIAL_SELF_GOVERNING_CITY }
+		1025 = { set_state_name = STATE_1025_EASTERN_GANGWON_SPECIAL_SELF_GOVERNING_PROVINCE }
+		1026 = { set_state_name = STATE_1026_WESTERN_GANGWON_SPECIAL_SELF_GOVERNING_PROVINCE }
+		
+	}
+	option = {
+		name = CHEAT.9.b
+		525 = { reset_state_name = yes}
+		1022 = { reset_state_name = yes}
+		1023 = { reset_state_name = yes}
+		1024 = { reset_state_name = yes}
+		1025 = { reset_state_name = yes}
+		1026 = { reset_state_name = yes}
+	}
+	option = {
+		name = CHEAT.9.c
+		525 = { set_state_name = STATE_525_GYEONGGI_DO}
+		1022 = { set_state_name = STATE_1022_GYEONGSANG_DO }
+		1023 = { set_state_name = STATE_1023_JEOLLA_DO_AND_JEJU_DO}
+		1024 = { set_state_name = STATE_1024_CHUNGCHEONG_DO}
+		1025 = { set_state_name = STATE_1025_EASTERN_GANGWON_DO}
+		1026 = { set_state_name = STATE_1026_WESTERN_GANGWON_DO}
+	}
+}
