@@ -1,6 +1,7 @@
 version="1.1.2"
 replace_path="common/ai_areas"
 replace_path="common/ai_strategy"
+replace_path="common/ai_strategy_plans"
 replace_path="common/ai_templates"
 replace_path="common/ai_focuses"
 replace_path="common/characters"
