@@ -1,8 +1,8 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
-		date = 1950.1.1.12
+		name = "FANTASY_INVASION_NAME"
+		desc = "FANTASY_INVASION_DESC"
+		date = 1950.1.1.1
 		picture = "GFX_select_date_1950"
 		default_country = "IBR"
 		default = yes
@@ -13,7 +13,7 @@ bookmarks = {
 		}
 		
 		"IBR"={
-			history = "IBR_GATHERING_STORM_DESC"
+			history = "IBR_FANTASY_INVASION_DESC"
 			ideology = despotism
 			ideas = {
 				IBR_victors_of_wwi
@@ -27,7 +27,7 @@ bookmarks = {
 			}
 		}
 		"UOK"={
-			history = "UOK_GATHERING_STORM_DESC"
+			history = "UOK_FANTASY_INVASION_DESC"
 			ideology = despotism
 			ideas = {
 				home_of_the_free
