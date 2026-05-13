@@ -4,8 +4,13 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1950.1.1.12
 		picture = "GFX_select_date_1950"
-		default_country = "GER"
+		default_country = "IBR"
 		default = yes
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
 		
 		"IBR"={
 			history = "IBR_GATHERING_STORM_DESC"
@@ -18,7 +23,7 @@ bookmarks = {
 			focuses = {
 				IBR_form_the_popular_front
 				IBR_revive_the_national_bloc
-				IBR_IBRnce_leads
+				IBR_warnce_leads
 			}
 		}
 		"UOK"={
