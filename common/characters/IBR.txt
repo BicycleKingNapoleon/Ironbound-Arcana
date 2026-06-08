@@ -110,4 +110,8 @@ characters={
 			logistics_skill=3
 		}
 	}
+
+	#IBR
+
+	#IBR
 }
