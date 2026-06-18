@@ -1,0 +1,18 @@
+
+characters = {
+	BYG_wang_chengbin = {
+		name = BYG_wang_chengbin
+
+		portraits = {
+			civilian = {
+			}
+		}
+		
+
+		country_leader = {
+			ideology = authoritarianism_subtype
+			expire = "1990.10.20"
+			traits = { }
+		}
+	}
+}

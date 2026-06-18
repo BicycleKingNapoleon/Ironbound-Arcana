@@ -6,10 +6,11 @@ state = {
 
 	history = {
 
-		owner = MAN
+		owner = BYG
 		add_core_of = CHI
 		add_core_of = MAN
 		add_core_of = PRC
+		add_core_of = BYG
 
 		victory_points = {
 			10463 1 # Jiamusi

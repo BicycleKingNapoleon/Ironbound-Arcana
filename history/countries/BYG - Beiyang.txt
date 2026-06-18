@@ -1,0 +1,17 @@
+capital = 608
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1942.10.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	authoritarianism = 100
+}
+
+set_research_slots = 3
+
+recruit_character = BYG_wang_chengbin
+promote_character = BYG_wang_chengbin

@@ -4,10 +4,10 @@ state = {
 
 	history = {
 
-		owner = CHI
+		owner = BYG
 		add_core_of = CHI
 		add_core_of = PRC
-
+		add_core_of = BYG
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -21,23 +21,23 @@ state = {
 			1612 1 # Yichang 
 		}
 
-		1938.10.25 = {
-			buildings = {
-				industrial_complex = 1
-				infrastructure = 2 #was: 6
-				arms_factory = 2
-			}
-			JAP = {
-				set_province_controller = 1036
-				set_province_controller = 4619
-				set_province_controller = 4631
-				set_province_controller = 7167
-				set_province_controller = 10462
-
-			}
-
-		}
-
+#		1938.10.25 = {
+#			buildings = {
+#				industrial_complex = 1
+#				infrastructure = 2 #was: 6
+#				arms_factory = 2
+#			}
+#			JAP = {
+#				set_province_controller = 1036
+#				set_province_controller = 4619
+#				set_province_controller = 4631
+#				set_province_controller = 7167
+#				set_province_controller = 10462
+#
+#			}
+#
+#		}
+#
 	}
 
 	provinces = {

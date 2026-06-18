@@ -1,0 +1,17 @@
+characters = {
+	SDF_cai_e = {
+		name = SDF_cai_e
+
+		portraits = {
+			civilian = {
+			}
+		}
+		
+
+		country_leader = {
+			ideology = conservatism_subtype
+			expire = "1990.10.20"
+			traits = { }
+		}
+	}
+}

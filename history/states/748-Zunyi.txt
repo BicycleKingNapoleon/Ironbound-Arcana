@@ -5,9 +5,10 @@ state={
 		1010 4325 9939 10763 19592 19746 19777 19784 
 	}
 	history={
-		owner = CHI
+		owner = SDF
 		add_core_of = CHI
 		add_core_of = PRC
+		add_core_of = SDF
 		buildings = {
 			infrastructure = 1
 
