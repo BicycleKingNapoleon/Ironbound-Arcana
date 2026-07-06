@@ -11,18 +11,19 @@ state = {
 
 	history = {
 
-		owner = JAP
+		owner = BYG
 		add_core_of = CHI
 		add_core_of = PRC
+		add_core_of = BYG
 
-		1936.1.1 = {
-			IF = {
-				limit = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-				add_core_of = HBC
-			}
-		}
+#		1936.1.1 = {
+#			IF = {
+#				limit = {
+#					has_dlc = "No Compromise, No Surrender"
+#				}
+#				add_core_of = HBC
+#			}
+#		}
 
 		buildings = {
 			infrastructure = 3 # was: 5

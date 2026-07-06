@@ -5,11 +5,11 @@ state = {
 	state_category = large_town
 	history = {
 
-		owner = JAP
+		owner = BYG
 		add_core_of = CHI
 		add_core_of = MAN
 		add_core_of = PRC
-
+		add_core_of = BYG
 		victory_points = {
 			1150 1 # Dalian
 		}

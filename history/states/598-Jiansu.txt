@@ -7,10 +7,10 @@ state={
 
 	history={
 
-		owner = CHI
+		owner = BYG
 		add_core_of = CHI
 		add_core_of = PRC
-
+		add_core_of = BYG
 		victory_points = {
 			1029 2 # Donghai
 		}
@@ -31,9 +31,9 @@ state={
 			}
 		}
 
-		1938.10.25 = {
-			controller = JAP
-		}
+#		1938.10.25 = {
+#			controller = JAP
+#		}
 	}
 
 	provinces={

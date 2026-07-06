@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_BYG_wang_chengbin"
+#		texturefile = "gfx/leaders/BYG/BYG_wang_chengbin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_BYG_wu_peifu"
+		#texturefile = "gfx/leaders/BYG/BYG_wu_peifu.png"
+	}
+
+}

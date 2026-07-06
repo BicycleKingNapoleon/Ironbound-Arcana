@@ -1,5 +1,17 @@
 #reload countrycolors
 
+#beiyang government add
+
+SDF = {
+	color = rgb { 140 180 215 }
+	color_ui = rgb { 140 180 215 }
+}
+
+BYG = {
+	color = rgb { 35 50 75 }
+	color_ui = rgb { 35 50 75 }
+}
+
 IBR = {
 	color = rgb { 205 164 104 }
 	color_ui = rgb { 205 164 104 }

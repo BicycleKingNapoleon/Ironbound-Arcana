@@ -105,6 +105,9 @@ KYR = "countries/_asian.txt"
 SRL = "countries/_asian.txt"
 PNG = "countries/_asian.txt"
 
+BYG = "countries/_asian.txt"
+SDF = "countries/_asian.txt"
+
 # South American
 ARG = "countries/_southamerican.txt"
 BOL = "countries/_southamerican.txt"

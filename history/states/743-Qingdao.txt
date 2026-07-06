@@ -8,15 +8,16 @@ state = {
 	
 	history = {
 
-		owner = CHI
+		owner = BYG
 		add_core_of = CHI
 		add_core_of = PRC
-		IF = {
-			limit = {
-				has_dlc = "No Compromise, No Surrender"
-			}
-			add_core_of = SND
-		}
+		add_core_of = BYG
+#		IF = {
+#			limit = {
+#				has_dlc = "No Compromise, No Surrender"
+#			}
+#			add_core_of = SND
+#		}
 
 		victory_points = {
 			10000 5 # Qingdao
@@ -36,9 +37,9 @@ state = {
 
 		}
 
-		1938.10.25 = {
-			controller = JAP
-		}
+#		1938.10.25 = {
+#			controller = JAP
+#		}
 
 	}
 

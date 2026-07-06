@@ -127,6 +127,17 @@
  MNT_DEF:0 "Kingdom of Montenegro"
  MNT_ADJ:0 "Montenegro"
 
+ BYG:0 "Beiyang Government"
+ BYG_DEF:0 "The Beiyang Government"
+ BYG_ADJ:0 "Beiyang"
+
+ PRC:0 "Northwest Workers' and Peasants' Red Army"
+ PRC_DEF:0 "The Northwest Workers' and Peasants' Red Army"
+ PRC_ADJ:0 "Northwest Red Army"
+
+ SDF:0 "Southern Defense Force"
+ SDF_DEF:0 "the Southern Defense Force"
+ SDF_ADJ:0 "Southern Defense Force"
  ############
  ### Asia ###
  ############
