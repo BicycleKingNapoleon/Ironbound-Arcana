@@ -1,0 +1,19 @@
+capital = 1
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 12.5
+	socialism = 12.5
+	liberalism = 12.5
+	conservatism = 12.5
+	authoritarianism = 12.5
+	fascism = 12.5
+	national_socialism = 12.5
+	despotism = 12.5
+}
