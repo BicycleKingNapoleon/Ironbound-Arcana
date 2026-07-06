@@ -6,12 +6,12 @@ is_enemy_ideology = {
 			ROOT = {
 				OR = {
 					has_government = fascism
-					has_government = democratic
+					has_government = liberalism
 				}
 			}
 		}
 		AND = {
-			has_government = democratic
+			has_government = liberalism
 			ROOT = {
 				OR = {
 					has_government = communism
@@ -23,7 +23,7 @@ is_enemy_ideology = {
 			has_government = fascism
 			ROOT = {
 				OR = {
-					has_government = democratic
+					has_government = liberalism
 					has_government = communism
 				}
 			}

@@ -102,8 +102,8 @@ antarctica_decisions = {
 						has_state_flag = strongest_claimant_GER
 						has_state_flag = strongest_claimant_ITA
 						AND = {
-							is_claimed_by = GER
-							GER = { has_country_flag = invited_to_split_yugo }
+							always = no # was: is_claimed_by = GER (tag not in mod)
+							always = no # was: GER invited_to_split_yugo check (tag not in mod)
 						}
 						AND = {
 							is_claimed_by = ITA

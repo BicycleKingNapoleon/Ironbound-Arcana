@@ -92,13 +92,13 @@ country_event = {
 		unlock_decision_tooltip = {
 			decision = GER_establish_schirmacher_station
 		}
-		GER = {
-			add_state_claim = 1079
-			add_state_claim = 1086
-			add_state_claim = 1098
-			add_state_claim = 1047
-			add_state_claim = 1053
-		}
+#		GER = {
+#			add_state_claim = 1079
+#			add_state_claim = 1086
+#			add_state_claim = 1098
+#			add_state_claim = 1047
+#			add_state_claim = 1053
+#		}
 
 		ai_chance = {
 			base = 80
@@ -136,7 +136,7 @@ country_event = {
 	is_triggered_only = yes #TODO change to no
 
 	trigger = {
-		original_tag = GER
+		always = no # was: original_tag = GER (tag not in mod)
 		surrender_progress > 0.1
 		has_country_flag = GER_base_211
 		OR = {
@@ -149,9 +149,9 @@ country_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		days = 2 #3
-	}
+#	mean_time_to_happen = {
+#		days = 2 #3
+#	}
 
 	option = { #Yes we should.
 		name = GER_antarctica.100.a
@@ -202,7 +202,7 @@ country_event = {
 	is_triggered_only = no
 
 	trigger = {
-		original_tag = GER
+		always = no # was: original_tag = GER (tag not in mod)
 		1053 = {
 			is_owned_by = ROOT
 		}
@@ -731,7 +731,7 @@ country_event = {
 		custom_effect_tooltip = panay_incident.2.c.tt
 		if = {
 			limit = {
-				has_completed_focus = USA_neutrality_act
+				always = no # was: has_completed_focus = USA_neutrality_act (vanilla focus, not in mod)
 			}
 			add_war_support = -0.1
 			add_stability = -0.3

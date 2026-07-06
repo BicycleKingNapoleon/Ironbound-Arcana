@@ -318,8 +318,8 @@ has_same_ideology = {
 		tooltip = has_same_ideology_tt
 		OR = {
 			AND = {
-				has_government = democratic
-				ROOT = { has_government = democratic }
+				has_government = liberalism
+				ROOT = { has_government = liberalism }
 			}
 			AND = {
 				has_government = fascism
@@ -330,8 +330,8 @@ has_same_ideology = {
 				ROOT = { has_government = communism }
 			}
 			AND = {
-				has_government = neutrality
-				ROOT = { has_government = neutrality }
+				has_government = despotism
+				ROOT = { has_government = despotism }
 			}
 		}
 	}
@@ -764,7 +764,7 @@ is_democratic_seller_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = "Democratic Countries"
 		FROM = {
-			has_government = democratic
+			has_government = liberalism
 		}
 	}
 }
@@ -777,7 +777,7 @@ is_fascist_seller_trigger = {
 
 is_democracy_seller_trigger = {
 	NOT = { has_war_with = ROOT	}
-	has_government = democratic 
+	has_government = liberalism 
 }
 
 is_communist_seller_trigger = {

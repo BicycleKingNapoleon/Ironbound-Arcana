@@ -30,5 +30,5 @@ tags={
 	"Alternative History"
 }
 name="Ironbound Arcana"
-supported_version="1.18.*"
+supported_version="1.19.*"
 path="mod/Ironbound-Arcana"

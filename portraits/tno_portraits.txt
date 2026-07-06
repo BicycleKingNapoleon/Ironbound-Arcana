@@ -25,7 +25,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_1"
 			}
 		}
-		democratic = {
+		liberalism = {
 				male = { 
 				"GFX_Portrait_Europe_Generic_2" 
 			}
@@ -35,7 +35,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_3" 
 			}
 		}
-		neutrality = {
+		despotism = {
 				male = { 
 				"GFX_Portrait_Europe_Generic_3" 
 			}

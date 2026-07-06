@@ -1,7 +1,7 @@
 form_antarctic_department_trigger = {
 	if = { #Germany
 		limit = {
-			original_tag = GER
+			always = no # was: original_tag = GER (tag not in mod)
 		}
 		OR = {
 			has_completed_focus = GER_anschluss
@@ -128,7 +128,7 @@ form_antarctic_department_trigger = {
 				original_tag = AST
 				original_tag = CHL
 				original_tag = FRA
-				original_tag = GER
+				always = no # was: original_tag = GER (tag not in mod)
 				original_tag = NZL
 				original_tag = NOR
 				original_tag = ENG
@@ -176,7 +176,7 @@ historical_antarctic_claimants = {
 		original_tag = AST
 		original_tag = CHL
 		original_tag = FRA
-		original_tag = GER
+		always = no # was: original_tag = GER (tag not in mod)
 		original_tag = NZL
 		original_tag = NOR
 		original_tag = ENG
@@ -190,7 +190,7 @@ all_historical_antarctic_claimants = {
 		original_tag = AST
 		original_tag = CHL
 		original_tag = FRA
-		original_tag = GER
+		always = no # was: original_tag = GER (tag not in mod)
 		original_tag = NZL
 		original_tag = NOR
 		original_tag = ENG

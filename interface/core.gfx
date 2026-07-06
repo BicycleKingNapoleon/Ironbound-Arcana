@@ -1769,4 +1769,19 @@ bitmapfonts = {
 		noOfFrames = 4
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+
+	### 1.19 vanilla에서 이식 ###
+	textSpriteType = {
+		name = "GFX_button_123x34_alt"
+		texturefile = "gfx//interface//button_123x34_alt.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_leader_rescue_raid_button"
+		texturefile = "gfx//interface//leader_rescue_raid_button.dds"
+		noOfFrames = 2
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }

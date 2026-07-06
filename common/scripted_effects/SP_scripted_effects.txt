@@ -6,7 +6,7 @@
 SP_create_variant_based_on_country_assault_engineer = {
 	if = {
 		limit = {
-			original_tag = GER
+			always = no # was: original_tag = GER (tag not in mod)
 		}
 		create_equipment_variant = {
 			name = "Minenraumer mit Pz.Kpfw.Antrib"
@@ -121,7 +121,7 @@ SP_create_variant_based_on_country_assault_engineer = {
 SP_create_variant_based_on_country_armored_engineer = {
 	if = {
 		limit = {
-			original_tag = GER
+			always = no # was: original_tag = GER (tag not in mod)
 		}
 		create_equipment_variant = {
 			name = "Brückenleger I"
@@ -212,7 +212,7 @@ SP_create_variant_based_on_country_armored_engineer = {
 SP_create_variant_based_on_country_armored_maintenance = {
 	if = {
 		limit = {
-			original_tag = GER
+			always = no # was: original_tag = GER (tag not in mod)
 		}
 		create_equipment_variant = {
 			name = "Bergepanzer IV"
@@ -321,7 +321,7 @@ SP_create_variant_based_on_country_armored_maintenance = {
 SP_create_variant_based_on_country_armored_signal = {
 	if = {
 		limit = {
-			original_tag = GER
+			always = no # was: original_tag = GER (tag not in mod)
 		}
 		create_equipment_variant = {
 			name = "Panzerbefehlswagen"

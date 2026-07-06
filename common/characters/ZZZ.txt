@@ -7,22 +7,17 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = anarchism
+			ideology = socialism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = socialism
+			ideology = communism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = anarchist_communism
-			expire = "2000.1.1.1"
-			id = -1
-		}
-		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}

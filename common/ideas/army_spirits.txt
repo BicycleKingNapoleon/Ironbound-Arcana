@@ -51,7 +51,7 @@ ideas = {
 			available = {
 			}
 			visible = { 
-				has_government = democratic
+				has_government = liberalism
 			}
 			modifier = {
 				army_leader_start_level = 2
@@ -68,7 +68,7 @@ ideas = {
 
 				modifier = {
 					factor = 2
-					has_government = democratic
+					has_government = liberalism
 				}
 			}
 
@@ -107,7 +107,7 @@ ideas = {
 			visible = { 
 				OR = {
 					has_government = fascism
-					has_government = neutrality
+					has_government = despotism
 				}
 			}
 			modifier = {
@@ -127,7 +127,7 @@ ideas = {
 					factor = 2
 					OR = {
 						has_government = fascism
-						has_government = neutrality
+						has_government = despotism
 					}
 				}
 			}
@@ -313,7 +313,7 @@ ideas = {
 
 		relief_of_command_spirit = {
 			ledger = army
-			visible = { has_government = democratic }
+			visible = { has_government = liberalism }
 			modifier = {
 				experience_gain_army_factor = 0.25
 				army_advisor_cost_factor = -0.5
@@ -328,7 +328,7 @@ ideas = {
 
 				modifier = {
 					factor = 2
-					has_government = democratic
+					has_government = liberalism
 				}
 			}
 		}

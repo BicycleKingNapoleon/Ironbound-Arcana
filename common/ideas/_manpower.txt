@@ -750,7 +750,7 @@ ideas = {
 				modifier = { # germany needs this before russia, badly
 					factor = 10
 
-					original_tag = GER
+					always = no # was: original_tag = GER (tag not in mod)
 					has_manpower < 2000000
 				}
 

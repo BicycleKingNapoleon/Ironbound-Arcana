@@ -763,4 +763,16 @@ spriteTypes = {
 	}
 
 
+
+	### 1.19 vanilla에서 이식 ###
+	spriteType = {
+		name = "GFX_captured_general_bars"
+		texturefile = "gfx/interface/captured_general_bars.dds"
+	}
+
+	spriteType = {
+		name = "GFX_marshal_captured_bg"
+		texturefile = "gfx/interface/marshal_captured_bg.dds"
+		transparencecheck = yes		
+	}
 }

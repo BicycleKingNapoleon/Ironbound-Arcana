@@ -1,35 +1,36 @@
-add_namespace = cml_civilwar
+﻿# NOTE: 파일 전체 주석 처리됨 - 미정의 태그(CML/CSL/CNL) 참조로 로드 에러 발생. 태그 추가 후 주석 해제할 것.
+#add_namespace = cml_civilwar
 
-country_event = {
-	id = cml_civilwar.1
-	title = cml_civilwar.1.t
-	desc = cml_civilwar.1.d
-	picture = GFX_report_event_generic
-	is_triggered_only = yes
+#country_event = {
+#	id = cml_civilwar.1
+#	title = cml_civilwar.1.t
+#	desc = cml_civilwar.1.d
+#	picture = GFX_report_event_generic
+#	is_triggered_only = yes
 
-	option = {
-		name = option_name
-			CSL = {
-				declare_war_on = {
-					target = CML
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = CNL
-					type = annex_everything
-				}
-			}
-			CNL = {
-				declare_war_on = {
-					target = CML
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = CSL
-					type = annex_everything
-				}
-			}
-		}
+#	option = {
+#		name = option_name
+#			CSL = {
+#				declare_war_on = {
+#					target = CML
+#					type = annex_everything
+#				}
+#				declare_war_on = {
+#					target = CNL
+#					type = annex_everything
+#				}
+#			}
+#			CNL = {
+#				declare_war_on = {
+#					target = CML
+#					type = annex_everything
+#				}
+#				declare_war_on = {
+#					target = CSL
+#					type = annex_everything
+#				}
+#			}
+#		}
 		
 		
-}
+#}

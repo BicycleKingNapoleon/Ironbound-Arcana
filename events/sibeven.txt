@@ -1,278 +1,279 @@
-﻿add_namespace = SIB
+﻿# NOTE: 파일 전체 주석 처리됨 - 미정의 태그(SIB/SAR/SDC/SNC/STC/SLB/SMC/SCH/SEP/SID) 참조로 로드 에러 발생. 태그 추가 후 주석 해제할 것.
+#add_namespace = SIB
 
-country_event = {
-    id = SIB.1
-    title = SIB.1.t
-    desc = SIB.1.d
-    picture = GFX_report_event_generic_factory
+#country_event = {
+#    id = SIB.1
+#    title = SIB.1.t
+#    desc = SIB.1.d
+#    picture = GFX_report_event_generic_factory
 
-    is_triggered_only = yes
+#    is_triggered_only = yes
 
-    option = {
-        name = SIB.1.a
-        set_country_flag = SIB_timer_active
-    }
-}
+#    option = {
+#        name = SIB.1.a
+#        set_country_flag = SIB_timer_active
+#    }
+#}
 
-country_event = {
-    id = SIB.incident
+#country_event = {
+#    id = SIB.incident
 
-    is_triggered_only = yes
-    hidden = yes
+#    is_triggered_only = yes
+#    hidden = yes
 
-    immediate = {
-        launch_nuke = { province = 4808  state = 567 }
-        launch_nuke = { province = 10570 state = 567 }
-        launch_nuke = { province = 10549 state = 567 }
-        launch_nuke = { province = 7726  state = 575 }
-        launch_nuke = { province = 10557 state = 575 }
-        launch_nuke = { province = 7744  state = 568 }
-        launch_nuke = { province = 10628 state = 575 }
-        launch_nuke = { province = 4842  state = 576 }
+#    immediate = {
+#        launch_nuke = { province = 4808  state = 567 }
+#        launch_nuke = { province = 10570 state = 567 }
+#        launch_nuke = { province = 10549 state = 567 }
+#        launch_nuke = { province = 7726  state = 575 }
+#        launch_nuke = { province = 10557 state = 575 }
+#        launch_nuke = { province = 7744  state = 568 }
+#        launch_nuke = { province = 10628 state = 575 }
+#        launch_nuke = { province = 4842  state = 576 }
 
-        country_event = { id = SIB.an1 days = 1 }
-    }
-}
+#        country_event = { id = SIB.an1 days = 1 }
+#    }
+#}
 
-country_event = {
-    id = SIB.sarpre
-    title = SIB.sarpre.t
-    desc = SIB.sarpre.d
-    picture = GFX_report_event_generic_factory
+#country_event = {
+#    id = SIB.sarpre
+#    title = SIB.sarpre.t
+#    desc = SIB.sarpre.d
+#    picture = GFX_report_event_generic_factory
 
-    is_triggered_only = yes
+#    is_triggered_only = yes
 
-    option = {
-        name = SIB.sarpre.a
-    }
-}
+#    option = {
+#        name = SIB.sarpre.a
+#    }
+#}
 
-country_event = {
-    id = SIB.fail
-    title = SIB.fail.t
-    desc = SIB.fail.d
-    picture = GFX_report_event_generic_factory
+#country_event = {
+#    id = SIB.fail
+#    title = SIB.fail.t
+#    desc = SIB.fail.d
+#    picture = GFX_report_event_generic_factory
 
-    is_triggered_only = yes
+#    is_triggered_only = yes
 
-    option = {
-        name = SIB.fail.a
+#    option = {
+#        name = SIB.fail.a
 
         # SIB_failure 중점 해금 및 강제 완료
-        set_country_flag = SIB_failure_unlocked
-        complete_national_focus = SIB_failure
-        mark_focus_tree_layout_dirty = yes
-    }
-}
+#        set_country_flag = SIB_failure_unlocked
+#        complete_national_focus = SIB_failure
+#        mark_focus_tree_layout_dirty = yes
+#    }
+#}
 
-country_event = {
-    id = SIB.oppr
-    title = SIB.oppr.t
-    desc = SIB.oppr.d
-    picture = GFX_report_event_generic_factory
+#country_event = {
+#    id = SIB.oppr
+#    title = SIB.oppr.t
+#    desc = SIB.oppr.d
+#    picture = GFX_report_event_generic_factory
 
-    is_triggered_only = yes
+#    is_triggered_only = yes
 
-    option = {
-        name = SIB.oppr.a
-    }
-}
+#    option = {
+#        name = SIB.oppr.a
+#    }
+#}
 
-country_event = {
-    id = SIB.sta
-    title = SIB.sta.t
-    desc = SIB.sta.d
-    picture = GFX_report_event_generic_factory
+#country_event = {
+#    id = SIB.sta
+#    title = SIB.sta.t
+#    desc = SIB.sta.d
+#    picture = GFX_report_event_generic_factory
 
-    is_triggered_only = yes
+#    is_triggered_only = yes
 
-    option = {
-        name = SIB.sta.a
-    }
-}
+#    option = {
+#        name = SIB.sta.a
+#    }
+#}
 
-country_event = {
-    id = SIB.an1
-    title = SIB.an1.t
-    desc = SIB.an1.d
-    picture = GFX_report_event_generic_factory
+#country_event = {
+#    id = SIB.an1
+#    title = SIB.an1.t
+#    desc = SIB.an1.d
+#    picture = GFX_report_event_generic_factory
 
-    is_triggered_only = yes
+#    is_triggered_only = yes
 
-    option = {
-        name = SIB.an1.a
-        set_country_flag = SIB_stabilization_blocked
-        country_event = { id = SIB.an2 days = 3 }
-    }
-}
+#    option = {
+#        name = SIB.an1.a
+#        set_country_flag = SIB_stabilization_blocked
+#        country_event = { id = SIB.an2 days = 3 }
+#    }
+#}
 
-country_event = {
-    id = SIB.an2
-    title = SIB.an2.t
-    desc = SIB.an2.d
-    picture = GFX_report_event_generic_factory
+#country_event = {
+#    id = SIB.an2
+#    title = SIB.an2.t
+#    desc = SIB.an2.d
+#    picture = GFX_report_event_generic_factory
 
-    is_triggered_only = yes
+#    is_triggered_only = yes
 
-    option = {
-        name = SIB.an2.a
-        add_days_mission_timeout = {
-            mission = SIB_timer
-            days = -9999
-        }
-        country_event = { id = SIB.an3 days = 3 }
-    }
-}
+#    option = {
+#        name = SIB.an2.a
+#        add_days_mission_timeout = {
+#            mission = SIB_timer
+#            days = -9999
+#        }
+#        country_event = { id = SIB.an3 days = 3 }
+#    }
+#}
 
-country_event = {
-    id = SIB.an3
-    title = SIB.an3.t
-    desc = SIB.an3.d
-    picture = GFX_report_event_generic_factory
+#country_event = {
+#    id = SIB.an3
+#    title = SIB.an3.t
+#    desc = SIB.an3.d
+#    picture = GFX_report_event_generic_factory
 
-    is_triggered_only = yes
+#    is_triggered_only = yes
 
-    option = {
-        name = SIB.an3.a
-        SIB = { set_cosmetic_tag = SIB_CIV }
-        SAR = { set_cosmetic_tag = SAR_CIV }
-        SDC = { set_cosmetic_tag = SDC_CIV }
-        SNC = { set_cosmetic_tag = SNC_CIV }
-        STC = { set_cosmetic_tag = STC_CIV }
-        SLB = { set_cosmetic_tag = SLB_CIV }
-        SMC = { set_cosmetic_tag = SMC_CIV }
-        SCH = { set_cosmetic_tag = SCH_CIV }
-        SEP = { set_cosmetic_tag = SEP_CIV }
-        SID = { set_cosmetic_tag = SID_CIV }
-SIB = {
-    declare_war_on = { target = SID type = annex_everything }
-    declare_war_on = { target = SNC type = annex_everything }
-    declare_war_on = { target = SDC type = annex_everything }
-}
-SID = {
-    declare_war_on = { target = SNC type = annex_everything }
-    declare_war_on = { target = SDC type = annex_everything }
-}
-SNC = {
-    declare_war_on = { target = SDC type = annex_everything }
-}
-SEP = {
-    declare_war_on = { target = SCH type = annex_everything }
-    declare_war_on = { target = STC type = annex_everything }
-    declare_war_on = { target = SMC type = annex_everything }
-}
-SCH = {
-    declare_war_on = { target = STC type = annex_everything }
-    declare_war_on = { target = SMC type = annex_everything }
-}
-STC = {
-    declare_war_on = { target = SMC type = annex_everything }
-}
-remove_ideas = {
-    SIB_warlord_army
-}
+#    option = {
+#        name = SIB.an3.a
+#        SIB = { set_cosmetic_tag = SIB_CIV }
+#        SAR = { set_cosmetic_tag = SAR_CIV }
+#        SDC = { set_cosmetic_tag = SDC_CIV }
+#        SNC = { set_cosmetic_tag = SNC_CIV }
+#        STC = { set_cosmetic_tag = STC_CIV }
+#        SLB = { set_cosmetic_tag = SLB_CIV }
+#        SMC = { set_cosmetic_tag = SMC_CIV }
+#        SCH = { set_cosmetic_tag = SCH_CIV }
+#        SEP = { set_cosmetic_tag = SEP_CIV }
+#        SID = { set_cosmetic_tag = SID_CIV }
+#SIB = {
+#    declare_war_on = { target = SID type = annex_everything }
+#    declare_war_on = { target = SNC type = annex_everything }
+#    declare_war_on = { target = SDC type = annex_everything }
+#}
+#SID = {
+#    declare_war_on = { target = SNC type = annex_everything }
+#    declare_war_on = { target = SDC type = annex_everything }
+#}
+#SNC = {
+#    declare_war_on = { target = SDC type = annex_everything }
+#}
+#SEP = {
+#    declare_war_on = { target = SCH type = annex_everything }
+#    declare_war_on = { target = STC type = annex_everything }
+#    declare_war_on = { target = SMC type = annex_everything }
+#}
+#SCH = {
+#    declare_war_on = { target = STC type = annex_everything }
+#    declare_war_on = { target = SMC type = annex_everything }
+#}
+#STC = {
+#    declare_war_on = { target = SMC type = annex_everything }
+#}
+#remove_ideas = {
+#    SIB_warlord_army
+#}
 
 # 8개 국가에 civilwar_baby 국민정신만 추가
-SIB = { add_ideas = civilwar_baby }
-SMC = { add_ideas = civilwar_baby }
-SID = { add_ideas = civilwar_baby }
-SDC = { add_ideas = civilwar_baby }
-SCH = { add_ideas = civilwar_baby }
-SNC = { add_ideas = civilwar_baby }
-SEP = { add_ideas = civilwar_baby }
-STC = { add_ideas = civilwar_baby }
+#SIB = { add_ideas = civilwar_baby }
+#SMC = { add_ideas = civilwar_baby }
+#SID = { add_ideas = civilwar_baby }
+#SDC = { add_ideas = civilwar_baby }
+#SCH = { add_ideas = civilwar_baby }
+#SNC = { add_ideas = civilwar_baby }
+#SEP = { add_ideas = civilwar_baby }
+#STC = { add_ideas = civilwar_baby }
 
 
     
-}
-}
+#}
+#}
 
-country_event = {
-    id = SIB.chooseside1
-    title = SIB.chooseside1.t
-    desc = SIB.chooseside1.d
-    picture = GFX_report_event_generic_factory
+#country_event = {
+#    id = SIB.chooseside1
+#    title = SIB.chooseside1.t
+#    desc = SIB.chooseside1.d
+#    picture = GFX_report_event_generic_factory
 
-    is_triggered_only = yes
+#    is_triggered_only = yes
 
-    option = {
-        name = SIB.chooseside1.a
-        country_event = { id = SIB.choosesidewest }
+#    option = {
+#        name = SIB.chooseside1.a
+#        country_event = { id = SIB.choosesidewest }
 
-    }
-     option = {
-        name = SIB.chooseside1.b
-        country_event = { id = SIB.choosesideeast }
-    }
-
-
-}
-
-country_event = {
-    id = SIB.choosesidewest
-    title = SIB.choosesidewest.t
-    desc = SIB.choosesidewest.d
-    picture = GFX_report_event_generic_factory
-
-    is_triggered_only = yes
-
-    option = {
-        name = SIB.choosesidewest.a
+#    }
+#     option = {
+#        name = SIB.chooseside1.b
+#        country_event = { id = SIB.choosesideeast }
+#    }
 
 
-    }
-        option = {
-        name = SIB.choosesidewest.b
-        SID = {
-            change_tag_from = ROOT
-        }    }
+#}
 
-    option = {
-        name = SIB.choosesidewest.c
-        SDC = {
-            change_tag_from = ROOT
-        }    }
+#country_event = {
+#    id = SIB.choosesidewest
+#    title = SIB.choosesidewest.t
+#    desc = SIB.choosesidewest.d
+#    picture = GFX_report_event_generic_factory
 
-    option = {
-        name = SIB.choosesidewest.d
-        SNC = {
-            change_tag_from = ROOT
-        }    }
+#    is_triggered_only = yes
+
+#    option = {
+#        name = SIB.choosesidewest.a
 
 
-}
+#    }
+#        option = {
+#        name = SIB.choosesidewest.b
+#        SID = {
+#            change_tag_from = ROOT
+#        }    }
 
-country_event = {
-    id = SIB.choosesideeast
-    title = SIB.choosesideeast.t
-    desc = SIB.choosesideeast.d
-    picture = GFX_report_event_generic_factory
+#    option = {
+#        name = SIB.choosesidewest.c
+#        SDC = {
+#            change_tag_from = ROOT
+#        }    }
 
-    is_triggered_only = yes
+#    option = {
+#        name = SIB.choosesidewest.d
+#        SNC = {
+#            change_tag_from = ROOT
+#        }    }
 
-    option = {
-        name = SIB.choosesideeast.a
-        STC = {
-            change_tag_from = ROOT
-        }
 
-    }
-        option = {
-        name = SIB.choosesideeast.b
-        SMC = {
-            change_tag_from = ROOT
-        }    }
+#}
 
-    option = {
-        name = SIB.choosesideeast.c
-        SEP = {
-            change_tag_from = ROOT
-        }    }
+#country_event = {
+#    id = SIB.choosesideeast
+#    title = SIB.choosesideeast.t
+#    desc = SIB.choosesideeast.d
+#    picture = GFX_report_event_generic_factory
 
-    option = {
-        name = SIB.choosesideeast.d
-        SCH = {
-            change_tag_from = ROOT
-        }    }
+#    is_triggered_only = yes
 
-}
+#    option = {
+#        name = SIB.choosesideeast.a
+#        STC = {
+#            change_tag_from = ROOT
+#        }
+
+#    }
+#        option = {
+#        name = SIB.choosesideeast.b
+#        SMC = {
+#            change_tag_from = ROOT
+#        }    }
+
+#    option = {
+#        name = SIB.choosesideeast.c
+#        SEP = {
+#            change_tag_from = ROOT
+#        }    }
+
+#    option = {
+#        name = SIB.choosesideeast.d
+#        SCH = {
+#            change_tag_from = ROOT
+#        }    }
+
+#}

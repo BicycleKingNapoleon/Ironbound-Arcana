@@ -149,7 +149,7 @@ antarctica_decisions = {
 		icon = GFX_decision_antarctica
 		days_remove = 180 #180
 		fire_only_once = yes
-		allowed = { original_tag = GER }
+		allowed = { always = no } # was: original_tag = GER
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = can_claim_antarctica_tt
@@ -158,7 +158,7 @@ antarctica_decisions = {
 		}
 		visible = {
 			has_country_flag = antarctica_department
-			original_tag = GER
+			always = no # was: original_tag = GER (tag not in mod)
 			NOT = { has_global_flag = ZZZ_isnt_ai }
 		}
 		remove_effect = {
@@ -508,7 +508,7 @@ antarctica_decisions = {
 		icon = GFX_decision_antarctica
 		days_remove = 1 #70
 		fire_only_once = yes
-		allowed = { original_tag = GER }
+		allowed = { always = no } # was: original_tag = GER
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = can_claim_antarctica_tt
@@ -614,7 +614,7 @@ antarctica_decisions = {
 		icon = GFX_decision_antarctica
 		days_remove = 70 #70
 		fire_only_once = yes
-		allowed = { original_tag = GER }
+		allowed = { always = no } # was: original_tag = GER
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = can_claim_antarctica_tt
@@ -720,7 +720,7 @@ antarctica_decisions = {
 		icon = GFX_decision_antarctica
 		days_remove = 1 #140
 		fire_only_once = yes
-		allowed = { original_tag = GER }
+		allowed = { always = no } # was: original_tag = GER
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = can_claim_antarctica_tt
@@ -746,7 +746,7 @@ antarctica_decisions = {
 			NOT = { has_global_flag = ZZZ_isnt_ai }
 			1053 = {
 				any_neighbor_state = {
-					is_fully_controlled_by = GER
+					always = no # was: is_fully_controlled_by = GER
 				}
 			}
 		}
@@ -825,7 +825,7 @@ antarctica_decisions = {
 		icon = GFX_decision_antarctica
 		days_remove = 1 #70
 		fire_only_once = yes
-		allowed = { original_tag = GER }
+		allowed = { always = no } # was: original_tag = GER
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = can_claim_antarctica_tt
@@ -894,7 +894,7 @@ antarctica_decisions = {
 		icon = GFX_decision_antarctica
 		days_remove = 70 #70
 		fire_only_once = yes
-		allowed = { original_tag = GER }
+		allowed = { always = no } # was: original_tag = GER
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = can_claim_antarctica_tt
@@ -947,12 +947,12 @@ antarctica_decisions = {
 			hidden_effect = { add_manpower = -500 add_command_power = -25 }
 		}
 		remove_effect = {
-			GER = {
-				add_state_claim = 1048
-				add_state_claim = 1049
-				transfer_state = 1048
-				transfer_state = 1049
-			}	
+#			GER = { # GER tag not in mod
+#				add_state_claim = 1048
+#				add_state_claim = 1049
+#				transfer_state = 1048
+#				transfer_state = 1049
+#			}	
 		}
 		custom_cost_trigger = {
 			has_manpower > 500
@@ -3814,7 +3814,7 @@ antarctic_development = {
 		days_remove = 1 #70
 		fire_only_once = yes
 		allowed = {
-			original_tag = GER
+			always = no # was: original_tag = GER (tag not in mod)
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -3913,7 +3913,7 @@ antarctic_development = {
 		priority = 5
 		icon = GFX_decision_ger_military_buildup
 		days_remove = 35
-		allowed = { original_tag = GER }
+		allowed = { always = no } # was: original_tag = GER
 		available = {
 			has_country_flag = GER_can_flee_to_antarctica
 			any_core_state = {
@@ -3930,14 +3930,14 @@ antarctic_development = {
 			}
 				if = {
 					limit = {
-						original_tag = GER
+						always = no # was: original_tag = GER (tag not in mod)
 					}
 					controls_state = 1053 #LAKE_UNTERSEE
 				}
 		}
 		visible = {
 			surrender_progress > 0.1
-			original_tag = GER
+			always = no # was: original_tag = GER (tag not in mod)
 			has_country_flag = GER_can_flee_to_antarctica
 			NOT = { has_global_flag = ZZZ_isnt_ai }
 			any_core_state = {
@@ -4013,7 +4013,7 @@ antarctic_development = {
 		priority = 4
 		icon = GFX_decision_generic_factory
 		days_remove = 35
-		allowed = { original_tag = GER }
+		allowed = { always = no } # was: original_tag = GER
 		available = {
 			has_country_flag = GER_can_flee_to_antarctica
 			any_core_state = {
@@ -4030,14 +4030,14 @@ antarctic_development = {
 			}
 				if = {
 					limit = {
-						original_tag = GER
+						always = no # was: original_tag = GER (tag not in mod)
 					}
 					controls_state = 1053 #LAKE_UNTERSEE
 				}
 		}
 		visible = {
 			surrender_progress > 0.1
-			original_tag = GER
+			always = no # was: original_tag = GER (tag not in mod)
 			has_country_flag = GER_can_flee_to_antarctica
 			NOT = { has_global_flag = ZZZ_isnt_ai }
 			any_core_state = {
@@ -4270,7 +4270,7 @@ debug_decisions = {
 			1079 = {
 				add_dynamic_modifier = {
 					modifier = antarctic_research_bonus
-					scope = GER
+					scope = ROOT # was: GER (tag not in mod)
 				}
 			}
 			

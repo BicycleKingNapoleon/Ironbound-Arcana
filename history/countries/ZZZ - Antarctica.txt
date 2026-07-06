@@ -10,16 +10,20 @@ set_rule = {
 country_lock_all_division_template = yes
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
 	communism = 0
-	neutrality = 100
+	socialism = 100
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 0
 	fascism = 0
+	national_socialism = 0
+	despotism = 0
 }
 
 every_owned_state = {
