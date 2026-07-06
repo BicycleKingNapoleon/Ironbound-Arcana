@@ -1,0 +1,18 @@
+
+music_station = "base_music"
+
+
+#### CZE ###
+music = {
+	song = "skoda_lasky"
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "truth_prevails"
+	chance = {
+		factor = 1
+	}
+}

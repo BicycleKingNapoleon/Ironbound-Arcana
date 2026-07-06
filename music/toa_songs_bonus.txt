@@ -1,0 +1,9 @@
+
+music_station = "base_music"
+
+music = {
+	song = "carnavaldobrasil"
+	chance = {
+		factor = 1
+	}
+}
