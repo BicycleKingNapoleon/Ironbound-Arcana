@@ -16,44 +16,6 @@ set_research_slots = 3
 recruit_character = BYG_wang_chengbin
 #원수
 recruit_character = BYG_wu_peifu
-recruit_character = BYG_feng_yuxiang
-recruit_character = BYG_zhang_zuoxiang
-recruit_character = BYG_yang_yuting
-recruit_character = BYG_guo_songling
-recruit_character = BYG_yan_xishan
-#장군
-recruit_character = BYG_huang_jie
-recruit_character = BYG_wang_yaowu
-recruit_character = BYG_sun_liren
-recruit_character = BYG_huang_baitao
-recruit_character = BYG_hao_pengju
-recruit_character = BYG_qian_dajun
-recruit_character = BYG_sun_zhen
-recruit_character = BYG_sun_yuanliang
-recruit_character = BYG_song_zheyuan
-recruit_character = BYG_han_fuju
-recruit_character = BYG_shi_yousan
-recruit_character = BYG_gao_shuxun
-recruit_character = BYG_zhang_zizhong
-recruit_character = BYG_jiang_baili
-recruit_character = BYG_aisin_gioro_pujie
-recruit_character = BYG_aisin_gioro_xiqia
-recruit_character = BYG_sun_mingjiu
-recruit_character = BYG_han_linchun
-recruit_character = BYG_xing_shilian
-recruit_character = BYG_chang_yinhuai
-recruit_character = BYG_ding_chao
-recruit_character = BYG_liao_yaoxiang
-recruit_character = BYG_feng_yong
-recruit_character = BYG_gao_zhihang
-recruit_character = BYG_lu_zhengcao
-recruit_character = BYG_sheng_shicai
-recruit_character = BYG_ma_zhanshan
-recruit_character = BYG_guo_zongfen
-recruit_character = BYG_fu_zuoyi
-recruit_character = BYG_zhao_chengshou
-recruit_character = BYG_shang_zhen
-recruit_character = BYG_wang_jingguo
-recruit_character = BYG_yang_hucheng
+
 
 promote_character = BYG_wang_chengbin
