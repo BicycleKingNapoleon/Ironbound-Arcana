@@ -36,7 +36,6 @@ characters = {
 				trickster#책략가
 				offensive_doctrine#공세적교리
 				aggressive_assaulter#공격적돌격가
-
 			}
 			skill = 6
 			attack_skill = 5
