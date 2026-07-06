@@ -6,7 +6,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_BYG_wu_peifu"
-		texturefile = "gfx/leaders/BYG/BYG_wu_peifu.png"
+		#texturefile = "gfx/leaders/BYG/BYG_wu_peifu.png"
 	}
 
 }
