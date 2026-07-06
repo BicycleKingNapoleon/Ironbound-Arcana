@@ -114,7 +114,6 @@ PHI_compania_maritima_de_cebu_organization = {
 
         available = {
             owner = {
-                always = no
             }
         }
     }
@@ -164,7 +163,6 @@ PHI_compania_maritima_de_cebu_organization = {
 
         available = {
             FROM = {
-                always = no # compat: character not in mod
             }
         }
 
@@ -298,7 +296,6 @@ PHI_cavite_naval_base_organization = {
 
         available = {
             FROM = {
-                always = no # compat: character not in mod
             }
         }
 

@@ -33,6 +33,9 @@ mio_policy_navy_space_efficient_design = {
 			has_mio_equipment_type = mio_cat_eq_all_destroyer
 			has_mio_equipment_type = mio_cat_eq_all_battleship
 		}
+		NOT = {
+			has_mio_equipment_type = mio_cat_eq_all_helicopter_carrier
+		}
 	}
 	available = { has_mio_size > 5}
 	equipment_bonus = {

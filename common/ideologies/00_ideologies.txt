@@ -3,7 +3,6 @@
 ## 2. modifiers are based highly of what paradox does in base game
 ## 3. try not to change order of ideologies
 ideologies = {
-
 	communism = { # communism (vanguardist - party leads the people)
 
 		types = {

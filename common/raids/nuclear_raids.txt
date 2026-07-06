@@ -172,7 +172,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
@@ -200,7 +199,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
@@ -229,7 +227,6 @@ types = {
 					}
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
@@ -375,7 +372,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						#custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
@@ -398,7 +394,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
 							days = 365
@@ -547,7 +542,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						#custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
@@ -559,7 +553,6 @@ types = {
 							province = var:ROOT.target_province #optional use either province or state
 							use_nuke = no #will consume nuke if specified
 						}
-						PHI_cobalt_sea_achievement = yes
 					}
 				}
 			}
@@ -571,7 +564,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
 						add_dynamic_modifier = {
 							modifier = fallout_atomic
 							days = 365
@@ -582,7 +574,6 @@ types = {
 							province = var:ROOT.target_province #optional use either province or state
 							use_nuke = no #will consume nuke if specified
 						}
-						PHI_cobalt_sea_achievement = yes
 					}
 				}
 			}
@@ -774,7 +765,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }   
 					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
 						custom_effect_tooltip = raid_nuclear_strike_tt
 						hidden_effect = {
 							IF = {
@@ -810,7 +800,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
 						custom_effect_tooltip = raid_nuclear_strike_tt
 						hidden_effect = {
 							IF = {
@@ -974,7 +963,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
 						#custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_thermonuclear
@@ -998,7 +986,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
 						add_dynamic_modifier = {
 							modifier = fallout_thermonuclear
 							days = 730
@@ -1148,7 +1135,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
 						#custom_effect_tooltip = raid_nuclear_strike_tt
 						add_dynamic_modifier = {
 							modifier = fallout_thermonuclear
@@ -1162,7 +1148,6 @@ types = {
 							use_nuke = no #will consume nuke if specified
 							nuke_type = thermonuclear_bomb
 						}
-						PHI_cobalt_sea_achievement = yes
 					}
 				}
 			}
@@ -1173,7 +1158,6 @@ types = {
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
 					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
 						add_dynamic_modifier = {
 							modifier = fallout_thermonuclear
 							days = 730
@@ -1185,7 +1169,6 @@ types = {
 							use_nuke = no #will consume nuke if specified
 							nuke_type = thermonuclear_bomb
 						}
-						PHI_cobalt_sea_achievement = yes
 					}
 				}
 			}

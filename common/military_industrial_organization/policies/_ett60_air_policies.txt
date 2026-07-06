@@ -1,0 +1,12 @@
+mio_policy_lockheed_skunk_works = {
+	icon = GFX_mio_lockheed_skunk_works
+	allowed = { is_military_industrial_organization = USA_lockheed_organization }
+	available = { 
+		has_mio_size > 5 
+	}
+	visible = { is_military_industrial_organization = USA_lockheed_organization }
+	organization_modifier = { 
+		military_industrial_organization_research_bonus = 0.25
+		military_industrial_organization_funds_gain = -0.1
+	}
+}

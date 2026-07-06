@@ -1,7 +1,5 @@
 ideas = {
-
 	hidden_ideas = {
-		
 		league_of_nations_member_idea = { 
 			allowed = {
 				always = no
@@ -16,8 +14,6 @@ ideas = {
 			modifier = {
 			}
 		}
-
-		
 
 		continuous_naval_production = {
 			allowed = {
@@ -34,7 +30,6 @@ ideas = {
 				industrial_capacity_dockyard = 0.2
 			}
 		}
-
 
 		continuous_air_production = {
 			allowed = {
@@ -102,24 +97,7 @@ ideas = {
 				}
 			}		
 		}
-
-#		sp_multi_charge_large_caliber_gun_small_size_ns = { #TODO_Manu: Used for Small version of V-3 SP. Uncomment if Code Support gets implemented 
-#			allowed = {
-#				always = no
-#			}
-#
-#			allowed_civil_war = {
-#				always = yes
-#			}
-#			
-#			removal_cost = -1
-#			
-#			modifier = {
-#				production_speed_mega_gun_emplacement_factor = 0.5
-#			}
-#		}
 	}
-
 	# Special ones that can be applied on other countries through focus system.
 	country = {
 		damage_to_naval_base_low = {
@@ -205,7 +183,7 @@ ideas = {
 		
 		TO_nato_ratified = {
 
-			picture = generic_liberalism_drift_bonus
+			picture = generic_democratic_drift_bonus
 
 			removal_cost = -1
 
@@ -352,7 +330,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_liberalism_drift_bonus
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				liberalism_drift = 0.1
@@ -366,7 +344,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = despotism
+				has_government = neutrality
 			}
 
 			removal_cost = -1
@@ -374,8 +352,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				despotism_drift = 0.1
-				despotism_acceptance = 85
+				neutrality_drift = 0.1
+				neutrality_acceptance = 85
 			}
 		}
 
@@ -435,7 +413,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_liberalism_drift_bonus
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				liberalism_drift = 0.1
@@ -451,7 +429,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = despotism
+				has_government = neutrality
 			}
 
 			removal_cost = -1
@@ -459,8 +437,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				despotism_drift = 0.1
-				despotism_acceptance = 35
+				neutrality_drift = 0.1
+				neutrality_acceptance = 35
 			}
 		}
 		
@@ -472,7 +450,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					AND = {
-						always = no # was: tag = GER (tag not in mod)
+						tag = GER
 						has_government = fascism
 						SOV = {
 							has_government = communism
@@ -481,7 +459,9 @@ ideas = {
 					AND = {
 						tag = SOV
 						has_government = communism
-						always = no # was: GER = { has_government = fascism } (tag not in mod)
+						GER = {
+							has_government = fascism
+						}
 					}
 				}
 			}
@@ -489,7 +469,7 @@ ideas = {
 			cancel = {
 				OR = {
 					AND = {
-						always = no # was: tag = GER (tag not in mod)
+						tag = GER
 						is_subject = yes
 						has_war_with = SOV
 						NOT = { is_in_faction_with = SOV }
@@ -497,8 +477,8 @@ ideas = {
 					AND = {
 						tag = SOV
 						is_subject = yes
-						always = no # was: has_war_with = GER (tag not in mod)
-						always = yes # was: NOT = { is_in_faction_with = GER } (tag not in mod)
+						has_war_with = GER
+						NOT = { is_in_faction_with = GER }
 					}
 				}
 			}
@@ -506,10 +486,12 @@ ideas = {
 			on_remove = {
 				if = {
 					limit = {
-						always = no # was: tag = GER (tag not in mod)
+						tag = GER
 						is_in_faction_with = SOV
 					}
-#					GER = { dismantle_faction = yes } # GER tag not in mod
+					GER = {
+						dismantle_faction = yes
+					}
 				}
 			}
 
@@ -579,7 +561,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			modifier = {
-				special_project_speed_factor = 0.05
+				special_project_speed_factor = 0.10
 			}
 		}
 
@@ -617,7 +599,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_liberalism_drift_bonus
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				liberalism_drift = 0.1
@@ -631,7 +613,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = despotism
+				has_government = neutrality
 			}
 
 			removal_cost = -1
@@ -639,7 +621,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				despotism_drift = 0.1
+				neutrality_drift = 0.1
 				mobilization_speed = 0.15
 			}
 		}
@@ -696,7 +678,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_liberalism_drift_bonus
+			picture = generic_democratic_drift_bonus
 	
 			modifier = {
 				trade_opinion_factor = 0.2
@@ -850,7 +832,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = despotism
+				has_government = neutrality
 			}
 
 			cancel = {
@@ -1459,56 +1441,7 @@ ideas = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = BEL tag = CZE tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = tank_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = AST tag = SAF tag = NZL tag = CAN }
-						has_dlc = "Together for Victory"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = MAN
-						}
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHL tag = ARG tag = BRA }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS }
-						has_dlc = "Gotterdammerung"
-					}
-				}
+				always = yes
 			}
 			
 			cost = 150
@@ -1531,60 +1464,7 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = SWE tag = HUN tag = CZE tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = naval_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = AST tag = CAN tag = NZL tag = RAJ }
-						has_dlc = "Together for Victory"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = CHL tag = ARG tag = BRA }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						tag = AUS 
-						has_dlc = "Gotterdammerung"
-					}
-				}
+				always = yes
 			}
 			
 			cost = 150
@@ -1607,60 +1487,7 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
-				}
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { tag = ROM } NOT = { tag = YUG }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR}
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = ARG }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						tag = AUS 
-						has_dlc = "Gotterdammerung"
-					}
-				}
+				always = yes
 			}
 			
 			cost = 150
@@ -1678,61 +1505,7 @@ ideas = {
 			picture = generic_air_manufacturer_3
 
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = ROM tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
-				}
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { tag = YUG }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = CHL tag = ARG }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS }
-						has_dlc = "Gotterdammerung"
-					}
-				}
-
+				always = yes
 			}
 			
 			cost = 150
@@ -1750,59 +1523,7 @@ ideas = {
 			picture = generic_air_manufacturer_2
 			
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = ROM tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
-				}
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { tag = YUG }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHL tag = ARG }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS }
-						has_dlc = "Gotterdammerung"
-					}
-				}
+				always = yes
 			}
 			
 			cost = 150
@@ -1820,57 +1541,7 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = ROM tag = YUG tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
-				}
-				if = {
-					limit = {
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = CHL tag = ARG }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS }
-						has_dlc = "Gotterdammerung"
-					}
-				}
-
+				always = yes
 			}
 			
 			cost = 150
@@ -1885,65 +1556,12 @@ ideas = {
 	}
 
 	industrial_concern = {
-	
 		generic_industrial_concern = {
 			
 			picture = generic_industrial_concern_1
 
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = HUN tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = industrial_concern limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						tag = ETH
-						has_dlc = "By Blood Alone"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ICE tag = DEN }
-						has_dlc = "Arms Against Tyranny"
-					}
-				}
-				NOT = {
-					AND = {
-						tag = BRA
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS tag = BEL tag = COG }
-						has_dlc = "Gotterdammerung"
-					}
-				}
+				always = no
 			}
 			
 			cost = 150
@@ -1961,62 +1579,7 @@ ideas = {
 			picture = generic_electronics_concern_1
 
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = electronics_concern limit = 1 }
-				}
-				NOT = {
-					AND = {
-						has_DLC = "Waking the Tiger"
-						OR = {
-							original_tag = MAN
-							is_literally_china = yes
-						}
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL tag = MEX }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = FIN tag = ICE tag = SWE }
-						has_dlc = "Arms Against Tyranny"
-					}
-				}
-				NOT = {
-					AND = {
-						has_dlc = "Trial of Allegiance"
-						original_tag = BRA
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS tag = BEL tag = COG }
-						has_dlc = "Gotterdammerung"
-					}
-				}
+				always = no
 			}
 			
 			cost = 150
@@ -2039,47 +1602,7 @@ ideas = {
 			picture = generic_motorized_equipment_manufacturer_3
 
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						tag = ETH
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS }
-						has_dlc = "Gotterdammerung"
-					}
-				}
+				always = yes
 			}
 			
 			cost = 150
@@ -2097,47 +1620,7 @@ ideas = {
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = HUN tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						tag = ETH
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						tag = AUS
-						has_dlc = "Gotterdammerung"
-					}
-				}
+				always = yes
 			}
 			
 			cost = 150
@@ -2155,56 +1638,7 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = FIN } } # GER removed (tag not in mod)
-				NOT = {
-					has_allowed_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						tag = ETH
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						tag = CHL
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-				}
-
-				
+				always = yes
 			}
 			
 			cost = 150
@@ -2217,5 +1651,4 @@ ideas = {
 			traits = { artillery_manufacturer }
 		}
 	}
-
 }
