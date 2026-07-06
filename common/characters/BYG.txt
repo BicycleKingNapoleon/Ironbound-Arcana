@@ -16,6 +16,7 @@ characters = {
 			traits = {}
 		}
 	}
+	
 	#원수
 	BYG_wu_peifu = {
 		name = BYG_wu_peifu
