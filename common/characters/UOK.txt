@@ -11,13 +11,16 @@ characters={
 			ideology = despotism_subtype
 			expire = "1990.10.20"
 		}
-		field_marshal={
-			traits={ infantry_officer trait_cautious }
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+		field_marshal = {
+			traits = {
+				infantry_officer
+				trait_cautious
+			}
+			skill = 3
+			attack_skill = 4 
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
