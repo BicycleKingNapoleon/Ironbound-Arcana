@@ -13,6 +13,8 @@ state = {
 
 		owner = UOK
 		add_core_of = UOK
+		add_core_of = IBR
+		add_core_of = SPR
 		add_claim_by = CAT
 
 		buildings = {

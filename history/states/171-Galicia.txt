@@ -25,6 +25,8 @@ state={
 			}
 		}
 		add_core_of = UOK
+		add_core_of = IBR
+		add_core_of = SPR
 	}
 
 	provinces={
