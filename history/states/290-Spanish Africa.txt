@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = UOK
+		owner = IBR
 		add_core_of = SPR
 		add_core_of = MOR
 		add_core_of = RIF

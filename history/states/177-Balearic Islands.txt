@@ -11,8 +11,8 @@ state = {
 			9793 1
 		}
 
-		owner = IBR
-		add_core_of = IBR
+		owner = UOK
+		add_core_of = UOK
 		add_claim_by = CAT
 
 		buildings = {
