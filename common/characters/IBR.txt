@@ -52,25 +52,6 @@ characters={
 	}
 
 	### Generals ###
-	IBR_ho_chi_minh = {
-		name = IBR_ho_chi_minh
-		portraits = {
-			army = {
-				large = "gfx/leaders/IBR/IBR_ho_chi_minh.png"
-			}
-		}
-		corps_commander = {
-			traits={
-				politically_connected
-				commando
-			}
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-		}
-	}
 
 	IBR_mohamed_meziane = {
 		name = IBR_mohamed_meziane
