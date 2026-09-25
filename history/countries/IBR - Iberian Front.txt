@@ -13,6 +13,7 @@ recruit_character = IBR_francisco_franco
 recruit_character = IBR_agustin_munoz_grandes
 recruit_character = IBR_vicente_rojo_lluch
 recruit_character = IBR_mohamed_meziane
+recruit_character = IBR_juan_modesto
 
 set_politics = {
 	ruling_party = despotism
