@@ -24,4 +24,43 @@ characters={
 			legacy_id=-1
 		}
 	}
+
+	UOK_carmen_valcarcel = {
+		name = UOK_carmen_valcarcel
+		portraits = {
+			army = {
+				large = "gfx/leaders/UOK/UOK_carmen_valcarcel.png"
+			}
+		}
+		corps_commander = {
+			desc = "UOK_carmen_valcarcel_desc"
+			traits={
+				politically_connected harsh_leader cavalry_officer
+			}
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+
+	UOK_beatrice_solana = {
+		name = UOK_beatrice_solana
+		portraits = {
+			army = {
+				large = "gfx/leaders/UOK/UOK_beatrice_solana.png"
+			}
+		}
+		corps_commander = {
+			traits={
+				engineer_officer trait_engineer fortress_buster expert_improviser
+			}
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+		}
+	}
 }

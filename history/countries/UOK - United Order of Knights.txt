@@ -7,6 +7,8 @@ set_convoys = 50
 set_war_support = 0.3
 
 recruit_character = UOK_leona_blaze
+recruit_character = UOK_carmen_valcarcel
+recruit_character = UOK_beatrice_solana
 
 set_politics = {
 	ruling_party = despotism
