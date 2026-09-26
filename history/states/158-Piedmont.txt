@@ -14,7 +14,7 @@ state = {
 	}
 
 	history = {
-		owner = ITA
+		owner = ARB
 		victory_points = {
 			6788 10 
 		}
@@ -32,7 +32,6 @@ state = {
 			}
 		}
 		add_core_of = ITA
-		add_core_of = SPM
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 10

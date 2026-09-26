@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = ARB
 		victory_points = {
 			6237 10 #Nottingham
 		}
@@ -21,17 +21,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 4 #was: 8
-			arms_factory = 2
-			industrial_complex = 1
+			arms_factory = 3
+			industrial_complex = 2
 			air_base = 5
 		}
+		add_core_of = ARB
 		add_core_of = ENG
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces={

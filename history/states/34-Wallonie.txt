@@ -11,8 +11,9 @@ state = {
 
 	history = {
 
-		owner = FRA
-		add_core_of = FRA
+		owner = ARB
+		add_core_of = ARB
+		add_core_of = BEL
 
 		victory_points = {
 			3516 5 # Namur

@@ -19,11 +19,6 @@ set_autonomy = {
 }
 
 set_autonomy = {
-	target = PRE
-	autonomous_state = autonomy_puppet
-}
-
-set_autonomy = {
 	target = MON
 	autonomous_state = autonomy_puppet
 }

@@ -22,6 +22,11 @@ UOK = {
 	color_ui = rgb { 78 91 104 }
 }
 
+ARB = {
+	color = rgb { 43 69 95 }
+	color_ui = rgb { 43 69 95 }
+}
+
 FRA = {
 	color = rgb { 114 149 183 }
 	color_ui = rgb { 114 149 183 }
